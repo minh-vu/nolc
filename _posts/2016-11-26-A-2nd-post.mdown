@@ -3,7 +3,7 @@ title: A new post to test 2
 permalink: /post-2/
 modified: 2016-11-03T11:57:46-04:00
 published: true
-categories: [advertising]
+categories: [advertising,test]
 tags: [post]
 excerpt: "This is a user-defined post excerpt. It should be displayed in place of the post content in archive-index pages."
 ---
