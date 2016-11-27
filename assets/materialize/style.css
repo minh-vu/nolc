@@ -16,6 +16,8 @@ section{}
 section#parallax {min-height: 720px;}
 section#parallax .parallax-text-inside{padding-top:120px; padding-bottom: 160px;}
 
+section h2 {margin-top: 60px;}
+
 .owl-carousel .owl-item img{
     min-height: 200px;
     padding: 10px;
