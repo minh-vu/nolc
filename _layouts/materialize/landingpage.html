@@ -24,5 +24,15 @@
 
     {% include scripts.html %}
 
+  <!-- ============= JS ============== -->
+  <script src="{{ site.url }}/assets/js/lazyload.min.js"></script>
+  <script src="{{ site.url }}/assets/js/index.js"></script>
+  <!-- <script src="{{ ASSET_PATH }}/index.min.js"></script> -->
+  <script src="{{ site.url }}/assets/js/setting.js"></script>
+  <script>
+    // ============= main func ==============//
+    loadAll();
+  </script>
+
   </body>
 </html>
