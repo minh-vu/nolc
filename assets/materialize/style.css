@@ -7,7 +7,8 @@ img.logo {margin-top: 0px; margin-left: 5px; height: 80px;}
 
 h1 {font-size: 260%;}
 h2 {font-size: 200%;}
-h3 {font-size: 120%;}
+h3 {font-size: 120%; font-weight: bold;}
+h3 {font-size: 110%; font-weight: bold;}
 
 .parallax-container {height: 720px;}
 
