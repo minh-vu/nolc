@@ -238,7 +238,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: materialize/blog-head
+      layout: materialize/blog-home
       author_profile: true
   # _posts
   - scope:
