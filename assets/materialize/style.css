@@ -10,8 +10,8 @@ h2 {font-size: 160%;}
 h3 {font-size: 120%;}
 
 section {min-height: 600px;}
-section#parallax {min-height: 600px; padding-top: 60px; padding-bottom: 60px;}
-
+section#parallax {min-height: 600px;}
+.parallax-text-inside{padding-top: 160px;padding-bottom: 160px;}
 
 .owl-carousel .owl-item img{
     width: 300px;
