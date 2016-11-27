@@ -13,7 +13,7 @@ h3 {font-size: 120%;}
 
 section {}
 section#parallax {min-height: 720px;}
-.parallax-text-inside{padding-top:120px; padding-bottom: 160px;}
+section#parallax .parallax-text-inside{padding-top:120px; padding-bottom: 160px;}
 
 .owl-carousel .owl-item img{
     width: 300px;
