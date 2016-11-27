@@ -422,7 +422,7 @@
     <div class="grey darken-2 white-text center" style="height:60px; padding-top:20px">
         <div class="row">
             <div class="col s12 m6">
-                Copyright &copy; Minh Vu Digital Marketing 2010-2017
+                Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
             </div>
             <div class="col s12 m6">
                 Designed by 
@@ -461,19 +461,12 @@
     </div>
 </div>
 
-  <!-- ======== CONTENT =============== -->
+  <!-- ======== CONTENT khong dung  =============== -->
   <div>    
     {{ content }}
   </div>
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
+    
+  {% include scripts.html %}
 
   <!-- ============= JS ============== -->
   <script src="{{ site.baseurl }}/assets/materialize/lazyload.min.js"></script>
