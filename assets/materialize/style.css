@@ -9,8 +9,8 @@ h1 {font-size: 200%;}
 h2 {font-size: 160%;}
 h3 {font-size: 120%;}
 
-section {min-height: 720px;}
-section#parallax {min-height: 720px;}
+section {}
+section#parallax {}
 .parallax-text-inside{padding-top:120px; padding-bottom: 160px;}
 
 .owl-carousel .owl-item img{
