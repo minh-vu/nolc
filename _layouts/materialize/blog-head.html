@@ -1,0 +1,182 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+    <!-- {% include masthead.html %}  -->
+
+    <!-- ============= NAVBAR ============== -->
+    <div class="navbar-fixed">
+        <nav class="main-color">
+            <div class="nav-wrapper">
+                <a href="{{ site.baseurl }}" class="brand-logo left">
+                    <img class="logo" src="{{ site.baseurl }}/assets/materialize/img/small/logo.png" ALT="Marketing online hiệu quả nhất"  />
+                    
+                    <!-- <div class="logo-text" style="margin-top:-75px; margin-left: 60px;">Landing Page</div> -->
+                </a>
+                <ul class="right">
+                    <li class="hide-on-med-and-down"><a href="#modal" class="modal-trigger"><i style="font-size:160%" class="fa fa-envelope-o"></i></a></li>
+                    <!-- Dropdown Trigger -->
+                    <li class="hide-on-large-only"><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-list-ul"></i> Menu</a></li>
+                </ul>
+                
+                <ul class="right hide-on-med-and-down">
+                </ul>
+                <!-- === NAVBAR for mobile (duplicate and hide) ==== -->
+                <ul id="dropdown1" class="dropdown-content">
+                </ul>
+            </div>  
+        </nav>
+    </div>
+
+    <!-- ============= PARALLAX HEADER ============== -->
+    <section id="parallax">
+      <div class="parallax-container">
+          <div class="parallax">
+              <img src="{{ site.baseurl }}/assets/materialize/img/small/parallax.jpg"
+                ALT="Marketing online hiệu quả nhất" />
+          </div>
+      </div>
+    </section>
+
+
+     <!-- ======== CONTENT  =============== -->
+    <section id="content">
+      <div>    
+        {{ content }}
+      </div>
+    </section>
+
+<!-- ============= ADDRESS MAP PARALLAX ============== -->
+<div class="parallax-container" style="height:360px;">
+    <div class="parallax"><img src="{{ site.baseurl }}/assets/materialize/img/small/address.jpg" ALT="Marketing online hiệu quả nhất" ></div>
+</div>
+
+<!-- ============= FOOTER ============== -->
+<section class="grey darken-4 white-text">
+    <footer class="row container">
+        <div class="col s12 m4">
+            <p><b>Liên hệ</b></p>
+
+            <!-- ============= VCARD ============== -->
+            <div itemscope itemtype="http://schema.org/LocalBusiness">
+              <meta itemprop="description" content="Digitalife">
+              <link itemprop="url" href="http://www.digitalife.top" rel="author"/>
+              <a itemprop="url" href="http://www.Digitalife.top">
+                  <span itemprop="name" style="display:block;"><strong>Digital Marketing</strong></span>
+              </a>
+              <ul class="vcard">
+                  <li class="org">Cty TNHH Dịch Vụ Công Nghệ Minh Vũ</li>
+                  <li class="tel">Tel: (08)6684-8953</li>
+                  <li class="fn"><a href="mailto:nguyencongvu@gmail.com">Email us</a></li>
+              </ul>
+            </div>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="streetAddress" style="display:block;">666 Đường 3/2 P.14, Q.10</span>
+                  <div>
+                      <span itemprop="addressLocality" style="display:block;">TP.Hồ Chí Minh</span>
+                  </div>
+                  <span itemprop="addressCountry" style="display:block;">Vietnam</span>
+            </div>
+       </div>
+        <div class="col s12 m3">
+            <p><b>Tìm hiểu thêm</b></p>
+            <ul>
+                <li><a>Landing Page</a></li>
+                <li><a href="https://www.entrepreneur.com/topic/marketing">Marketing Blog</a></li>
+                <li><a></a></li> 
+                <li><a></a></li>
+            </ul>
+        </div>
+        <div class="col s12 m5">
+            <p><b>Social</b></p>
+            <div style="font-size: 200%">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="mailto:digitalife.top@gmail.com">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                <a href="mailto:digitalife.top@gmail.com">
+                    <i class="fa fa-envelope-o"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="grey darken-3 white-text center">
+        Liên kết: <a href="http://teamshow.org">Teamshow</a> 
+        | <a href="">Định cư Úc</a> 
+        | <a href="http://openmize.com">Openmize</a> 
+        | <a href="">Tanyoli</a> 
+        | <a href="http://spasaigon.top">SpaSaigon</a> 
+        | <a href="">BackpackerSaigon</a>
+        | <a href="http://powernet.club">Powernet.club</a>  
+    </div>
+    <div class="grey darken-2 white-text center" style="height:60px; padding-top:20px">
+        <div class="row">
+            <div class="col s12 m6">
+                Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+            </div>
+            <div class="col s12 m6">
+                Designed by 
+                | <a href="http://thietkewebnhanh.top">Thietkewebnhanh.top</a> 
+            </div>
+
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- ============= FLOAT BTN ============== -->
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red lighten-1">
+        <i class="fa fa-bars"></i>
+    </a>
+    <ul>
+        <li><a href="#modal" class="modal-trigger btn-floating btn-large orange darken-1"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="tel:+0830937980003" class="modal-trigger btn-floating btn-large green  darken-1"><i class="fa fa-phone"></i></a></li>
+    </ul>
+</div>
+
+<!-- ============= MODAL ============== -->
+<div id="modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        
+        <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScjBXL-M0eRB0qhX1xSV5sWWAwsXbNqtjAGm3aq0-l5EZAisg/viewform?embedded=true" width="100%" height="98%" frameborder="0" marginheight="0" marginwidth="0">
+                Loading...
+        </iframe>
+    </div>
+    <div class="modal-footer">
+      <!-- <i>&nbsp; Note: Refresh để nhập nhiều lần </i> -->
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Thanks</a>
+    </div>
+</div>
+
+ 
+    
+  {% include scripts.html %}
+
+  <!-- ============= JS ============== -->
+  <script src="{{ site.baseurl }}/assets/materialize/lazyload.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/materialize/index.js"></script>
+  <!-- <script src="{{ site.baseurl }}/index.min.js"></script> -->
+  <script src="{{ site.baseurl }}/assets/materialize/setting.js"></script>
+  <script>
+    // ============= main func ==============//
+    loadAll();
+  </script>
+
+  </body>
+</html>
