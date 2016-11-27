@@ -11,6 +11,9 @@
   <!-- <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}"> -->
 
   <body>
+    {% include browser-upgrade.html %}
+    <!-- {% include masthead.html %}  -->
+
     <!-- ============= NAVBAR ============== -->
     <div class="navbar-fixed">
         <nav class="main-color">
@@ -35,10 +38,16 @@
         </nav>
     </div>
 
+    <!-- ============= PARALLAX HEADER ============== -->
+    <div class="parallax-container" style="height:100px;">
+        <div class="parallax">
+            <img src="{{ site.baseurl }}/assets/materialize/img/small/parallax.jpg" 
+                ALT="Marketing online hiệu quả nhất" >
+        </div>
+    </div>
+    <div style="margin-top: 40px"></div>
 
-    {% include browser-upgrade.html %}
-    <!-- {% include masthead.html %}  -->
-
+    
     {{ content }}
 
     <div class="page__footer">
