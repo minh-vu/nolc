@@ -35,7 +35,7 @@ title: Blogs
 </div>
 
 <!-- Pager -->
-<!-- {% if paginator.total_pages > 1 %} -->
+{% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
@@ -48,4 +48,4 @@ title: Blogs
     </li>
     {% endif %}
 </ul>
-<!-- {% endif %} -->
+{% endif %}
