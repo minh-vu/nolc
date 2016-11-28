@@ -87,8 +87,8 @@ layout: bootstrap/default
       <h3>Related post</h3>
         {% assign listed_posts_urls = page.url | split: ' ' %}
         
-        {% for tag in tags %}
-          <ul>
+        <ul>
+        {% for tag in tags %} <!-- set o tren -->
           {% for mypost in site.tags[tag] %}
             {% if listed_posts_urls contains mypost.url %}
             {% else %}
@@ -98,8 +98,8 @@ layout: bootstrap/default
               {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
             {% endif %}
           {% endfor %}
-          <?
         {% endfor %}
+        </ul>
     </div>
 
   </div>
