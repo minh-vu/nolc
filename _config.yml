@@ -238,7 +238,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: materialize/single
+      layout: materialize/home
       author_profile: true
       read_time: true
   # _posts
