@@ -49,71 +49,62 @@ layout: bootstrap/default
 
 <hr>
 
-<!-- tags -->
-<div>
-  {% if post %}
-    {% assign tags = post.tags %}
-  {% else %}
-    {% assign tags = page.tags %}
-  {% endif %}
-  {% for tag in tags %}
-  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-<!-- categories -->
-<div>
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
+
+    <!-- tags -->
+    <div>
+      {% if post %}
+        {% assign tags = post.tags %}
+      {% else %}
+        {% assign tags = page.tags %}
+      {% endif %}
+      <i class="fa fa-tag"></i> Tags: 
+      {% for tag in tags %}
+      <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
+
+    <!-- categories -->
+    <div>
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      <i class="fa fa-file-open"></i> Categories: 
+      {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
 
 <!-- comments -->
 <!-- comment box -->
 <!-- share  -->
 <!-- related posts -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       
-      <!-- tag related --> 
-      <h3>Related posts</h3>
-        {% assign listed_posts_urls = page.url | split: ' ' %}
-        
-        <ul>
-        {% for item in tags %} <!-- set o tren -->
-          {% for mypost in site.tags[item] %}
-            {% if listed_posts_urls contains mypost.url %}
-            {% else %}
-              <li>
-                <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
-              </li>
-              {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
-            {% endif %}
-          {% endfor %}
+    <!-- tag related --> 
+    <h3>Related posts</h3>
+      {% assign listed_posts_urls = page.url | split: ' ' %}
+      
+      <ul>
+      {% for item in tags %} <!-- set o tren -->
+        {% for mypost in site.tags[item] %}
+          {% if listed_posts_urls contains mypost.url %}
+          {% else %}
+            <li>
+              <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
+            </li>
+            {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
+          {% endif %}
         {% endfor %}
-        </ul>
+      {% endfor %}
+      </ul>
 
-        <ul>
-        {% for item in categories %} <!-- set o tren -->
-          {% for mypost in site.categories[item] %}
-            {% if listed_posts_urls contains mypost.url %}
-            {% else %}
-              <li>
-                <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
-              </li>
-              {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-        </ul>
     </div>
 
   </div>
