@@ -22,7 +22,11 @@ permalink: none #date pretty ordinal
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+gems: 
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 defaults:
   -
