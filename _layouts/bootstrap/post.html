@@ -12,7 +12,12 @@ layout: bootstrap/default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    {% if page.author %}
+                      <i class="fa fa-user"></i> {{ page.author }}
+                    {% else %}
+                      {{ site.title }}
+                    {% endif %} 
+                      <i class="fa fa-calendar"></i> {{ page.date | date: "%B %-d, %Y" }}
                 </div>
             </div>
         </div>
@@ -29,7 +34,7 @@ layout: bootstrap/default
 
                 <!-- share  -->
                 <div class="share-page">
-                  <h3>Share this on: </h3>                  
+                  <h3><i class="fa fa-share-alt"></i> Share this on: </h3>                  
                   <a class="btn btn-info blue" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
 
                   <a class="btn btn-danger red" href="https://plus.google.com/share?url={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
@@ -84,7 +89,7 @@ layout: bootstrap/default
       {% endif %}
       
       {% for tag in tags %}
-        <a class="btn btn-default" href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
+        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>
@@ -97,7 +102,7 @@ layout: bootstrap/default
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-        <a class="btn btn-default" href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>
