@@ -27,8 +27,36 @@ layout: bootstrap/default
 
 				{{ content }}
 
+                <!-- tags -->
+                <div>
+                  {% if post %}
+                    {% assign tags = post.tags %}
+                  {% else %}
+                    {% assign tags = page.tags %}
+                  {% endif %}
+                  
+                  {% for tag in tags %}
+                    <i class="fa fa-tags"></i> <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+                  {% unless forloop.last %}&nbsp;{% endunless %}
+                  {% endfor %}
+                </div>
+
+                <!-- categories -->
+                <div>
+                  {% if post %}
+                    {% assign categories = post.categories %}
+                  {% else %}
+                    {% assign categories = page.categories %}
+                  {% endif %}
+                  {% for category in categories %}
+                    <i class="fa fa-folder-open"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                  {% unless forloop.last %}&nbsp;{% endunless %}
+                  {% endfor %}
+                </div>
+
                 <hr>
 
+                <!-- pager -->
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -53,34 +81,7 @@ layout: bootstrap/default
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-
-    <!-- tags -->
-    <div>
-      {% if post %}
-        {% assign tags = post.tags %}
-      {% else %}
-        {% assign tags = page.tags %}
-      {% endif %}
-      <i class="fa fa-tags"></i> Tags: 
-      {% for tag in tags %}
-      <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-    </div>
-
-    <!-- categories -->
-    <div>
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
-      <i class="fa fa-files-o"></i> Categories: 
-      {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-    </div>
+    
 
 <!-- comments -->
 <!-- comment box -->
