@@ -25,17 +25,6 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: 
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-archives
-
-jekyll-archives:
-  enabled: []
-  layout: "bootstrap/page"
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
 
 defaults:
   -
