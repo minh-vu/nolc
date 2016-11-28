@@ -93,7 +93,7 @@ layout: bootstrap/default
             {% if listed_posts_urls contains mypost.url %}
             {% else %}
               <li>
-                <h5><a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a></h5>
+                <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
               </li>
               {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
             {% endif %}
