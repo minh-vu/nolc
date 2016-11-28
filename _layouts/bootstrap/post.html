@@ -60,7 +60,7 @@ layout: bootstrap/default
   <h3>Related Posts</h3>
   <ul>
   {% for related_post in site.related_posts limit: 5 %}
-    <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+    <li><a href="{{ site.baseurl}} {{ related_post.url }}">{{ related_post.title }}</a></li>
   {% endfor %}
   </ul>
 </div>
