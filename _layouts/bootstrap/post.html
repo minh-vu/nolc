@@ -84,12 +84,26 @@ layout: bootstrap/default
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       
       <!-- tag related --> 
-      <h3>Related post</h3>
+      <h3>Related posts</h3>
         {% assign listed_posts_urls = page.url | split: ' ' %}
         
         <ul>
-        {% for tag in tags %} <!-- set o tren -->
-          {% for mypost in site.tags[tag] %}
+        {% for item in tags %} <!-- set o tren -->
+          {% for mypost in site.tags[item] %}
+            {% if listed_posts_urls contains mypost.url %}
+            {% else %}
+              <li>
+                <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
+              </li>
+              {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </ul>
+
+        <ul>
+        {% for item in categories %} <!-- set o tren -->
+          {% for mypost in site.categories[item] %}
             {% if listed_posts_urls contains mypost.url %}
             {% else %}
               <li>
