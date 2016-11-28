@@ -20,6 +20,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: none #date pretty ordinal 
 paginate: 5
+paginate_path: "/blogs/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: 
