@@ -37,3 +37,11 @@ defaults:
       layout: "bootstrap/page"  
       author: "Vu, Nguyen"
       #category: "project"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "bootstrap/post"  
+      author: "Vu, Nguyen"
+      #category: "project"
