@@ -21,7 +21,7 @@ title: Categories
     <a name="{{ category_name | slugize }}"></a>
     <ul>
     {% for post in site.categories[category_name] %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+      <li><i class="fa fa-folder-open"></i> <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
     {% endfor %}
     </ul>
   </div>
