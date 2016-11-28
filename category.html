@@ -6,6 +6,12 @@ title: Categories
 <!-- List of categories -->
 
 <h1>Blog Categories</h1>
+{% for item in site.categories %}
+    <i class="fa fa-folder-open"></i> <a href="#{{ item }}">{{ item }}</a>
+{% endfor %}
+
+<hr>
+
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
     
