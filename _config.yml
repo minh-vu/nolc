@@ -34,6 +34,6 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "bootstrap/page"
+      layout: "bootstrap/page"  
       author: "Vu, Nguyen"
       #category: "project"
