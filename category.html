@@ -7,7 +7,8 @@ title: Categories
 
 <h1>Blog Categories</h1>
 {% for item in site.categories %}
-    <i class="fa fa-folder-open"></i> <a href="#{{ item }}">{{ item }}</a>
+  {% capture item_name %}{{ item | first }}{% endcapture %}
+    <i class="fa fa-folder-open"></i> <a href="#{{ item_name }}">{{ item_name }}</a>
 {% endfor %}
 
 <hr>
