@@ -61,7 +61,7 @@ layout: bootstrap/default
       {% else %}
         {% assign tags = page.tags %}
       {% endif %}
-      <i class="fa fa-tag"></i> Tags: 
+      <i class="fa fa-tags"></i> Tags: 
       {% for tag in tags %}
       <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
@@ -75,7 +75,7 @@ layout: bootstrap/default
       {% else %}
         {% assign categories = page.categories %}
       {% endif %}
-      <i class="fa fa-file-open"></i> Categories: 
+      <i class="fa fa-files-o"></i> Categories: 
       {% for category in categories %}
         <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
