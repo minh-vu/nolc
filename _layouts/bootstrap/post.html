@@ -50,17 +50,20 @@ layout: bootstrap/default
 <hr>
 
 <!-- tags -->
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-  <a href="#{{ tag | slugify }}"> {{ tag }} </a>
-{% endfor %}
+<div>
+  {% if post %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign tags = page.tags %}
+  {% endif %}
+  {% for tag in tags %}
+  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
 <!-- categories -->
-<div class="post-categories">
+<div>
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
