@@ -34,6 +34,6 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "materialize/page"
+      layout: "bootstrap/page"
       author: "Vu, Nguyen"
       #category: "project"
