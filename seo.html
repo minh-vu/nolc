@@ -65,6 +65,7 @@ begin SEO -->
   <meta property="article:publisher" content="{{ site.author }}">
   {% if site.facebook.app_id %}
     <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
+    <meta property="fb:admins" content="{{ site.facebook-admins }}"/>
   {% endif %}
 {% endif %}
 
@@ -87,6 +88,8 @@ begin SEO -->
     }
   </script>
 {% endif %}
+
+<!-- ============== Verify  ============== -->
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
