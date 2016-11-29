@@ -1,7 +1,7 @@
 ---
 title:      "Sức mạnh của Marketing online"
 subtitle:   "Quảng cáo truyền thống có còn lợi thế so với marketing online?"
-date:       2014-09-24 12:00:00
+date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
 header-img: "img/post-bg-06.jpg"
 category: advertising
