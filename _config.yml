@@ -7,8 +7,8 @@ description: "Write your site description here. It will be used as your sites me
 baseurl: "/business"
 url: "https://digitalife-top.github.io"
 author: "Vu, Nguyen"
-language: "en" #vi
-locale: "en-US" #vi-VN
+language: "en"
+locale: "en-US" 
 
 twitter_username: "vunc"
 github_username:  digitalife-top
