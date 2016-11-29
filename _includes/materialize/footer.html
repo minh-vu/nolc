@@ -15,21 +15,21 @@
                 <meta itemprop="description" content="Digitalife">
                 <link itemprop="url" href="http://www.digitalife.top" rel="author"/>
                 <a itemprop="url" href="http://www.Digitalife.top">
-                    <span itemprop="name" style="display:block;"><strong>Digital Marketing</strong></span>
+                    <span itemprop="name" style="display:block;"><strong>{{ site.title }}</strong></span>
                 </a>
                 <ul class="vcard">
-                    <li class="org">Cty TNHH Dịch Vụ Công Nghệ Minh Vũ</li>
-                    <li class="tel">Tel: (08)6684-8953</li>
-                    <li class="fn"><a href="mailto:nguyencongvu@gmail.com">Email us</a></li>
+                    <li class="org">{{ contact.name }}</li>
+                    <li class="tel">Tel: {{ contact.phone }}</li>
+                    <li class="fn"><a href="{{ site.email_username }}">Email us</a></li>
                 </ul>
             </div>
                 
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress" style="display:block;">666 Đường 3/2 P.14, Q.10</span>
+                    <span itemprop="streetAddress" style="display:block;">{{ contact.address }} </span>
                     <div>
-                        <span itemprop="addressLocality" style="display:block;">TP.Hồ Chí Minh</span>
+                        <span itemprop="addressLocality" style="display:block;">{{ contact.city }}</span>
                     </div>
-                    <span itemprop="addressCountry" style="display:block;">Vietnam</span>
+                    <span itemprop="addressCountry" style="display:block;">{{ contact.country}} </span>
                 </div>
        </div>
         <div class="col s12 m3">
