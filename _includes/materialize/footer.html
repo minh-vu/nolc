@@ -40,32 +40,47 @@
             </ul>
         </div>
         <div class="col s12 m5">
-            <p><b>Social</b></p>
-            <div style="font-size: 200%">
+          <p><b>Social</b></p>
+          <div>
               <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                  <i class="fa fa-rss"></i>
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                  </span>
               </a>
-                {% if site.facebook_username %}
-                    <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                {% endif %}
-                {% if site.twitter_username %}
-                    <a href="https://twitter.com/{{ site.twitter_username }}">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                {% endif %}
-                {% if site.email_username %}
-                    <a href="http://plus.google.com/{{ site.email_username }}">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
-                {% endif %}
-                {% if site.email_username %}
-                    <a href="mailto:{{ site.email_username }}">
-                        <i class="fa fa-envelope-o"></i>
-                    </a>
-                {% endif %}
-            </div>
+              {% if site.twitter_username %}
+                  <a href="https://twitter.com/{{ site.twitter_username }}">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              {% endif %}
+              {% if site.facebook_username %}
+                  <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              {% endif %}
+              {% if site.github_username %}
+                  <a href="https://github.com/{{ site.github_username }}">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              {% endif %}
+              {% if site.email_username %}
+                  <a href="mailto:{{ site.email_username }}">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </a>
+              {% endif %}
+          </div>
         </div>
     </footer>
 </section>
@@ -82,74 +97,15 @@
 <div class="grey darken-2 white-text center" style="height:60px; padding-top:20px">
     <div class="row">
         <div class="col s12 m6">
-            Copyright &copy; Minh Vu Digital Marketing 2010-2017
+            <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
         </div>
         <div class="col s12 m6">
             Designed by 
             | <a href="http://thietkewebnhanh.top">Thietkewebnhanh.top</a> 
         </div>
-
     </div>
 </div>
-<footer>
-    <div class="container"> 
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
-                    <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.github_username %}
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.email_username %}
-                    <li>
-                        <a href="mailto:{{ site.email_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
-            </div>
-        </div>
-    </div>
-</footer>
+
 
 <script src="{{ "/assets/lazyload.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/index.js " | prepend: site.baseurl }}"></script>
