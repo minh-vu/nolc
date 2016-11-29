@@ -89,6 +89,7 @@ function styleControls(){
     // $("#your-fb.fb-comments").attr('data-href', URL); //set truoc
     $("span#current-color").html(chooseColor.toUpperCase());
 
+    $('.button-collapse').show();
     $('.button-collapse').sideNav({
       menuWidth: 300, // Default is 240
       edge: 'right', // Choose the horizontal origin
