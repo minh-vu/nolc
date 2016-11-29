@@ -7,6 +7,7 @@ header-img: "img/about-bg.jpg"
 
 <h2 class="post-title">Blog Authors</h2>
 
+<div class="post-link">
 {% for post in site.posts %}
   {% capture per %}{{ post.author  }}{% endcapture %}
   {% capture nper %}{{ post.next.author }}{% endcapture %}
@@ -21,3 +22,4 @@ header-img: "img/about-bg.jpg"
     <span class="time">({{ post.date | date: "%d/%m/%Y" }})</span> 
   </li>
 {% endfor %}
+</div>
