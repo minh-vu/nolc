@@ -19,7 +19,7 @@ ul.sidebar li {border-bottom: solid 1px #eee; }
 h1 {font-size: 300%;}
 h1.title-large {font-size: 480%; font-weight: bold; font-family:'Kanit'}
 h2 {font-size: 180%;}
-h2.post-title {font-size: 200%; font-weight: bold; font-family:'Kanit'; letter-spacing:1px;}
+h2.post-title {font-size: 200%; font-weight: bold; letter-spacing:-1px;}
 h3 {font-size: 150%;}
 h3.post-subtitle {font-size: 150%;}
 h4 {font-size: 120%; font-weight: bold;}
