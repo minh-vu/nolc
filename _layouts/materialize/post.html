@@ -34,10 +34,10 @@ layout: materialize/default
   <div id="paging"> 
     <div>
         {% if page.previous.url %}
-            <a class="btn btn-flat main-color" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+            <a class="btn btn-flat grey lighten-4" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
         {% endif %}
         {% if page.next.url %}
-            <a class="btn btn-flat main-color" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+            <a class="btn btn-flat grey lighten-4" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
         {% endif %}
     </div>
   </div>
@@ -78,11 +78,9 @@ layout: materialize/default
     <i class="fa fa-reddit"></i> Reddit
   </a>
 
-  </div>
-</section>
+  </div> <!-- card panel -->
 
-
-<div id="taxanomy" >
+  <div>
 <!-- tags -->
     <p>
       {% if post %}
@@ -110,6 +108,10 @@ layout: materialize/default
       {% endfor %}
     </p>
 </div>
+</section>
+
+
+
 
 <section id="related">
 <!-- related posts -->
