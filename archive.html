@@ -5,7 +5,7 @@ description: "A history list."
 header-img: "img/about-bg.jpg"
 ---
 
-<h1>Blog Archive</h1>
+<h2 class="post-title">Blog Archive</h2>
 
 {% for post in site.posts %}
   {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
