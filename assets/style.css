@@ -32,7 +32,8 @@ h4 {font-size: 120%; font-weight: bold;}
 section {padding-top: 40px; padding-bottom:40px}
 
 .owl-carousel .owl-item img{
-    height: 200px;
+    max-height: 200px;
+    min-width: 300px;
     padding: 10px;
 }
 
