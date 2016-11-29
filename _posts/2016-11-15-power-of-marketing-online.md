@@ -5,7 +5,7 @@ date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
 header-img: "img/post-bg-06.jpg"
 category: advertising
-tags: ["marketing online", "quang cao"]
+tags: ["marketing online", "quảng cáo"]
 ---
 
 Chúng ta sẽ trả lời các câu hỏi sau:
