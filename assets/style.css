@@ -3,14 +3,19 @@ img {width: 100%}
 
 img.logo {margin-top: 0px; margin-left: 5px; height: 80px;}
 .logo-text {font-size: 80%}
-.line-thick {border-bottom: solid 5px #fff; width: 60px; text-align: center;}
+hr.small {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: white;
+}
 
 ul.sidebar li {border-bottom: solid 1px #eee; }
 
 h1 {font-size: 300%;}
-h1.title-large {font-size: 400%; font-weight: bold;}
+h1.title-large {font-size: 420%; font-weight: bold;}
 h2 {font-size: 180%;}
-h2.post-title {font-size: 180%; font-weight: bold;}
+h2.post-title {font-size: 2200%; font-weight: bold;}
 h3 {font-size: 150%;}
 h3.post-subtitle {font-size: 150%;}
 h4 {font-size: 120%; font-weight: bold;}
