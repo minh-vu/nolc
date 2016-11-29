@@ -57,5 +57,5 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "bootstrap/post"  
+      layout: "materialize/post"  
       author: "Vu, Nguyen"
