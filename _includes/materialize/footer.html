@@ -13,20 +13,22 @@
             <!-- ============= VCARD ============== -->
             <ul class="vcard">
               <li class="org">{{ site.contact_name }}</li>
-              <div class="adr">
-                <div class="street-address">{{ site.contact_address }}</div>
-                <span class="locality">{{ site.contact_city }}</span>, 
-                <span class="country-name">{{ site.contact_country }}</span>
-              </div>
-              <li class="tel">{{ site.contact_phone }}</li>
-              <li class="fax">{{ site.fax }}</li>
+              <li>
+                <div class="adr">
+                  <div class="street-address">{{ site.contact_address }}</div>
+                  <span class="locality">{{ site.contact_city }}</span>, 
+                  <span class="country-name">{{ site.contact_country }}</span>
+                </div>
+              </li>
+              <li class="tel">Tel: {{ site.contact_phone }}</li>
+              <li class="fax">Fax: {{ site.contact_fax }}</li>
               <li>
                 <a class="email" href="mailto:{{ site.email_username }}">Email Us
                 </a>
               </li>
-              <li class="fn">Vu, Nguyen</li>
+              <!-- <li class="fn">Vu, Nguyen (CEO)</li> -->
            </ul>
-           
+
        </div>
         <div class="col s12 m3">
             <p><b>Tìm hiểu thêm</b></p>
