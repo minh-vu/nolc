@@ -10,10 +10,9 @@ ul.sidebar li {border-bottom: solid 1px #eee; }
 h1 {font-size: 300%;}
 h1.title-large {font-size: 400%; font-weight: bold;}
 h2 {font-size: 180%;}
-h2.post-title {font-size: 180%; ; font-weight: bold;}
+h2.post-title {font-size: 180%; font-weight: bold;}
 h3 {font-size: 150%;}
-h3.post-subtitle {font-size: 150%; ; font-weight: bold;}
-
+h3.post-subtitle {font-size: 150%; letter-spacing: 2px;}
 h4 {font-size: 120%; font-weight: bold;}
 
 section {padding-top: 40px; padding-bottom:40px}
