@@ -17,7 +17,7 @@ description: "Read tagged posts."
           {% for post in site.tags[tag_name] %}
             <li>
                 <i class="fa fa-book"></i>  
-                <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+                <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
           {% endfor %}
           </ul>
       </div>
