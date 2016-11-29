@@ -122,6 +122,9 @@ layout: materialize/default
         {% for item in tags %} <!-- set o tren -->
           {% for mypost in site.tags[item] %}
             {% if listed_posts_urls contains mypost.url %}
+              <li>
+                Not any related post
+              </li>
             {% else %}
               <li>
                 <i class="fa fa-folder-open"></i> 
