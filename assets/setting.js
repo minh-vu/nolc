@@ -5,16 +5,16 @@ var googleAnalyticId = "UA-11";
 var keywords = "marketing online hieu qua";
 
 var colors = [
-    "red","blue","green","orange",  // 0 1 2 3  
-    "pink", "purple", "light-blue", "cyan", // 4 5 6 7  
-    // "deep-purple", "indigo", "teal", "lime", // 8 9 10 11
-    "deep-purple", "indigo", "teal", // 8 9 10 11
-    // "light-green", "yellow", "amber", "deep-orange", // 12 13 14 15
-    "light-green", "yellow", "deep-orange", // 12 13 14 15
-    // "brown", "grey", "blue-grey"      // 16 17 18 19
+    "red","blue","green","orange",  
+    "pink", "purple", "light-blue", "cyan", 
+    "light-green", "yellow", "deep-orange", 
+    "deep-purple", "indigo", "teal", 
+    // "deep-purple", "indigo", "teal", "lime", 
+    // "light-green", "yellow", "amber", "deep-orange", 
+    // "brown", "grey", "blue-grey"      
 ];
 
-colors = ['green', 'deep-purple']
+// colors = ['green', 'deep-purple']
 var i = Math.floor( Math.random() * (colors.length - 0) + 0 );
 var chooseColor = colors[i].toString();
 
