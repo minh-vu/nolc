@@ -58,7 +58,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: bootstrap/page
+      layout: materialize/page
       author: "Vu, Nguyen"
       #header-img: "img/contact-bg.jpg"
   -
@@ -66,5 +66,5 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: bootstrap/post
+      layout: materialize/post
       author: "Vu, Nguyen"
