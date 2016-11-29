@@ -70,7 +70,7 @@ layout: materialize/default
 
 <div id="taxanomy" class="container">
 <!-- tags -->
-    <div>
+    <p>
       {% if post %}
         {% assign tags = post.tags %}
       {% else %}
@@ -78,23 +78,21 @@ layout: materialize/default
       {% endif %}
       
       {% for tag in tags %}
-        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
+        <b>Tags:<b> <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
-    </div>
 
 <!-- categories -->
-    <div>
       {% if post %}
         {% assign categories = post.categories %}
       {% else %}
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
+        <b>Cartegory:</b> <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
-    </div>
+    </p>
 </div>
 
 <section id="related" class="container">
