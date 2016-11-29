@@ -31,8 +31,8 @@ layout: materialize/default
   </article>
   
   <!-- pager -->
-  <div id="paging" class="container"> 
-    <div class="row">
+  <div id="paging" class="row col s12"> 
+    <div class="container">
         {% if page.previous.url %}
         <div class="col s6 m6 left">
             <a class="btn btn-flat" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
