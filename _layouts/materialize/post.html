@@ -78,7 +78,7 @@ layout: materialize/default
       {% endif %}
       
       {% for tag in tags %}
-        <b>Tags:<b> <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
+        <b>Tags:</b> <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
 
@@ -89,7 +89,7 @@ layout: materialize/default
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-        <b>Cartegory:</b> <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
+        <b>Category:</b> <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </p>
