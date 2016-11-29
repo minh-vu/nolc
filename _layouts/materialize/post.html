@@ -77,8 +77,9 @@ layout: materialize/default
         {% assign tags = page.tags %}
       {% endif %}
       
+      <b>Tags: </b> 
       {% for tag in tags %}
-        <b>Tags:</b> <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
+        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tags"></i> {{tag}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
 
@@ -88,8 +89,9 @@ layout: materialize/default
       {% else %}
         {% assign categories = page.categories %}
       {% endif %}
+      <b>     Category:</b> 
       {% for category in categories %}
-        <b>Category:</b> <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </p>
@@ -108,7 +110,7 @@ layout: materialize/default
           {% if listed_posts_urls contains mypost.url %}
           {% else %}
             <li>
-              <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
+              <i class="fa fa-folder-open"></i> <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
             </li>
             {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
           {% endif %}
