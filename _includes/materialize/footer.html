@@ -18,18 +18,18 @@
                     <span itemprop="name" style="display:block;"><strong>{{ site.title }}</strong></span>
                 </a>
                 <ul class="vcard">
-                    <li class="org">{{ contact.name }}</li>
-                    <li class="tel">Tel: {{ contact.phone }}</li>
-                    <li class="fn"><a href="{{ site.email_username }}">Email us</a></li>
+                    <li class="org">{{ site.contact.name }}</li>
+                    <li class="tel">Tel: {{ site.contact.phone }}</li>
+                    <li class="fn"><a href="mailto:{{ site.email_username }}">Email us</a></li>
                 </ul>
             </div>
                 
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress" style="display:block;">{{ contact.address }} </span>
+                    <span itemprop="streetAddress" style="display:block;">{{ site.contact.address }} </span>
                     <div>
-                        <span itemprop="addressLocality" style="display:block;">{{ contact.city }}</span>
+                        <span itemprop="addressLocality" style="display:block;">{{ site.contact.city }}</span>
                     </div>
-                    <span itemprop="addressCountry" style="display:block;">{{ contact.country}} </span>
+                    <span itemprop="addressCountry" style="display:block;">{{ site.contact.country}} </span>
                 </div>
        </div>
         <div class="col s12 m3">
