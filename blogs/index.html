@@ -14,7 +14,16 @@ title: Blogs
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <!-- <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+     -->
+    <p class="post-meta">
+    {% if post.author %}
+      <i class="fa fa-user"></i> {{ post.author }}
+    {% else %}
+      {{ site.title }}
+    {% endif %} 
+      <i class="fa fa-calendar"></i> {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
 <hr>
 {% endfor %}
