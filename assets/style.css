@@ -1,8 +1,10 @@
-.sectionxxx {margin-top: 40px;}
-img {width: 100%}
+a {text-decoration: none; color: #111;}
+a:hover {text-decoration: none; color: #000; font-weight: bold;}
 
+img {width: 100%}
 img.logo {margin-top: 0px; margin-left: 5px; height: 80px;}
 .logo-text {font-size: 80%}
+
 hr.small {
     max-width: 100px;
     border: solid 4px #fff;
