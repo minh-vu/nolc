@@ -34,13 +34,13 @@ layout: materialize/default
   <div id="paging" class="container"> 
     <div class="row">
         {% if page.previous.url %}
-        <div class="col s12 m6 left">
-            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        <div class="col s6 m6 left">
+            <a class="btn btn-flat" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
         </div>
         {% endif %}
         {% if page.next.url %}
-        <div class="col s12 m6 right">
-            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        <div class="col s6 m6 right">
+            <a class="btn btn-flat" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
         </div>
         {% endif %}
     </div>
