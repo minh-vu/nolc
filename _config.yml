@@ -23,11 +23,12 @@ og_image: "assets/img/small/logo.png" # Open Graph/Twitter default site image
 
 #footer contact 
 contact:
-  - name: "Cty TNHH Dịch Vụ Công Nghệ Minh Vũ" 
-  - phone: "(08)6684-8953"
-  - address: "666 Đường 3/2 P.14, Q.10"
-  - city: "TP.Hồ Chí Minh"
-  - country: "Vietnam"
+  - 
+    name: "Cty TNHH Dịch Vụ Công Nghệ Minh Vũ" 
+    phone: "(08)6684-8953"
+    address: "666 Đường 3/2 P.14, Q.10"
+    city: "TP.Hồ Chí Minh"
+    country: "Vietnam"
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
