@@ -38,7 +38,7 @@ var jsfiles = [
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.js',
-    'https://apis.google.com/js/platform.js', //-- google comments
+    'https://apis.google.com/js/plusone.js', //-- google comments
     URL+'/assets/jquery.waypoints.min.js', //-- scroll to view
     URL+'/assets/inview.min.js',  //-- scroll to view
     // 'assets/index.js', 
