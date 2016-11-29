@@ -9,10 +9,10 @@ tags: ["marketing online", "quang cao"]
 ---
 
 Chúng ta sẽ trả lời các câu hỏi sau:
-
-- Quảng cáo trực tuyến khác thế nào với các loại quảng cáo khác?
-- Tại sao quảng cáo trực tuyến quan trọng cho doanh nghiệp của tôi?
-- Làm thế nào để nó hoạt động?
+  
+  - Quảng cáo trực tuyến khác thế nào với các loại quảng cáo khác?
+  - Tại sao quảng cáo trực tuyến quan trọng cho doanh nghiệp của tôi?
+  - Làm thế nào để nó hoạt động?
 
 Hãy tưởng tượng Dan sở hữu một doanh nghiệp nhỏ gọi là DD4D. Tất cả mọi thứ anh ta bán là denim, ngay cả bộ sưu tập giày của mình.
 
@@ -22,9 +22,9 @@ Khi anh mở báo giấy ra vào chủ nhật và thấy sản phẩm quảng c�
 
 Tuy nhiên, liệu Dan có thể thực sự tự tin rằng quảng cáo của mình đang hoạt động tốt? Hãy cùng tìm hiểu. 
 
-- Dan có biết có bao nhiêu khách hàng xem mẩu quảng cáo?
-- Liệu Dan có chắc khách hàng mục tiêu xem được quảng cáo? 
-- Có chắc là các quảng cáo đó giúp tăng doanh số bán hàng?
+  - Dan có biết có bao nhiêu khách hàng xem mẩu quảng cáo?
+  - Liệu Dan có chắc khách hàng mục tiêu xem được quảng cáo? 
+  - Có chắc là các quảng cáo đó giúp tăng doanh số bán hàng?
 
 Thật không may cho Dan, các câu hỏi này không dễ trả lời, dù quảng cáo báo giấy không phải là phương án tồi. Dan cần phải xem xét phương án quảng cáo online. 
 
@@ -34,10 +34,10 @@ Quảng cáo trực tuyến cũng cung cấp rất nhiều tính linh hoạt, v�
 
 Với quảng cáo online, bạn có đủ sức mạnh để:
 
-- Hiệu chỉnh quảng cáo đúng theo đối tượng khách hàng
-- Lựa chọn cụm từ được tìm kiếm để hiển thị quảng cáo
-- Chọn vị trí địa lý để hiện quảng cáo 
-- Chi phí thực hiện quảng cáo linh hoạt.
+  - Hiệu chỉnh quảng cáo đúng theo đối tượng khách hàng
+  - Lựa chọn cụm từ được tìm kiếm để hiển thị quảng cáo
+  - Chọn vị trí địa lý để hiện quảng cáo 
+  - Chi phí thực hiện quảng cáo linh hoạt.
 
 Bạn có thể thực hiện các bước để đảm bảo rằng quảng cáo trực tuyến của bạn được thiết lập để chạy thành công. Chúng tôi sẽ chỉ cho bạn làm thế nào để khách hàng mục tiêu cụ thể, tìm thấy bởi những người tìm kiếm sản phẩm hoặc dịch vụ của bạn, thiết lập ngân sách của bạn, và đo lường sự thành công và giá trị của quảng cáo.
 
@@ -91,12 +91,13 @@ Bây giờ bạn đã được giới thiệu với những điều cơ bản c�
 
 Hãy chắc chắn rằng 
 
-- Bạn đã rõ khách hàng mục tiêu của mình 
-- Bạn đã biết các từ khóa họ tìm sản phẩm liên quan thế nào
-- Bạn đã chuẩn bị các từ khóa trong các trang web của mình?
-- Bạn đã tbiết lập ngân sách quảng cáo?
+  - Bạn đã rõ khách hàng mục tiêu của mình 
+  - Bạn đã biết các từ khóa họ tìm sản phẩm liên quan thế nào
+  - Bạn đã chuẩn bị các từ khóa trong các trang web của mình?
+  - Bạn đã tbiết lập ngân sách quảng cáo?
 
 Việc cuối cùng là chọn một nền tảng quảng cáo, họ sẽ giúp bạn thực thi kế hoạch quảng cáo trực tuyến hiệu quả.
  
 Vu
+
 Theo Primer
