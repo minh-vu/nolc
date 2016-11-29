@@ -8,7 +8,7 @@ baseurl: "/business"
 url: "https://digitalife-top.github.io"
 author: "Vu, Nguyen"
 language: "en" #vi
-#locale: en-EN #vi-VN
+locale: "en-US" #vi-VN
 
 twitter_username: vunc
 github_username:  digitalife-top
