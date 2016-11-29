@@ -11,6 +11,12 @@ github_username:  digitalife-top
 facebook_username:  nguyencongvu
 email_username:  nguyencongvu@gmail.com
 
+og_image: "/images/logo.png" # Open Graph/Twitter default site image
+
+#more to SEO 
+twitter:
+  username: vunc
+
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
@@ -35,6 +41,7 @@ defaults:
     values:
       layout: "bootstrap/page"  
       author: "Vu, Nguyen"
+      #header-img: "img/contact-bg.jpg"
   -
     scope:
       path: ""
