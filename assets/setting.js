@@ -27,8 +27,9 @@ var cssfiles = [
     'https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css',
     //-- blog web fonts 
-    'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic',
-    'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800',
+    // 'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic',
+    // 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800',
+    'https://fonts.googleapis.com/css?family=Arimo|Athiti|Kanit:500i,800|Maitree|Mitr|Noticia+Text|Open+Sans|Pridi|Prompt|Roboto|Roboto+Slab|Trirong|Lemonada|Lobster|Noto+Serif:700i|Pattaya|Prompt:500i|Sriracha|Tinos:700i|Arima+Madurai:800|Baloo|Itim|Lalezar',
     URL+'/assets/style.css'
 ];
 var jsfiles = [ 

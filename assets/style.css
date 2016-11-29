@@ -19,7 +19,7 @@ hr.style {
 ul.sidebar li {border-bottom: solid 1px #eee; }
 
 h1 {font-size: 300%;}
-h1.title-large {font-size: 420%; font-weight: bold;}
+h1.title-large {font-size: 420%; font-weight: bold; font-family:'Kanit'}
 h2 {font-size: 180%;}
 h2.post-title {font-size: 220%; font-weight: bold;}
 h3 {font-size: 150%;}
