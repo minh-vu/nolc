@@ -7,8 +7,10 @@ description: "This is our landing page"
 <div class="parallax-container" style="height:380px;">
     <div class="parallax"><img src="{{ site.baseurl }}/assets/img/small/parallax.jpg" ALT="{{ site.keyword }}" ></div>
 
+    <div class="">
     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
     <hr class="small">
     <span class="subheading">{{ page.description }}</span>
+    </div>
 
 </div>
