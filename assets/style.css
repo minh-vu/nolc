@@ -1,8 +1,8 @@
 a {text-decoration: none; color: #111;}
-a:hover {text-decoration: none; color: #000; font-weight: bold;}
+a:hover {text-decoration: none; font-weight: bold;}
 
-.grey a {text-decoration: none; color: #039be5;}
-.grey a:hover {text-decoration: none; font-weight: bold;}
+footer a, .foot a {text-decoration: none; color: #039be5;}
+footer a:hover, .foot a:hover {text-decoration: none; font-weight: bold;}
 
 img {width: 100%}
 img.logo {margin-top: 0px; margin-left: 5px; height: 80px;}
