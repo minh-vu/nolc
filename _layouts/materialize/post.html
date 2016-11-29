@@ -135,7 +135,7 @@ layout: materialize/default
   </div>
 
   <div class="divider"></div>
-  
+
   <!-- comments -->
   <h3><i class="fa fa-comments"></i> Comments</h3>
   {% if site.comment_activate %}
@@ -149,6 +149,9 @@ layout: materialize/default
           view_type: 'FILTERED_POSTMOD'
       });
     </script>
+    <style>
+      #comments {width: 100%; min-height: 350px; }
+    </style>
   {% endif %}
 
 </div>
