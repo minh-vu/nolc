@@ -19,7 +19,7 @@ email_username:  nguyencongvu@gmail.com
 markdown: kramdown
 highlighter: rouge
 permalink: none #date pretty ordinal 
-paginate: 2
+paginate: 5
 paginate_path: "blogs/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
