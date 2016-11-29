@@ -12,36 +12,30 @@ layout: materialize/default
         
         <h1 class="lightSpeedIn">{{ page.title }}</h1>
         <h3>{{ page.subtitle }}</h3>
-
-        <p>
-            {% if page.author %}
-              <i class="fa fa-user"></i> {{ page.author }}  
-            {% else %}
-              {{ site.title }}
-            {% endif %} 
-              <i class="fa fa-calendar"></i> {{ page.date | date: "%B %-d, %Y" }}  
-        </p>
     </div>
 </div>
 
 <section id="content" class="container">
-  
+  <p>
+    {% if page.author %}
+      <i class="fa fa-user"></i> {{ page.author }}  
+    {% else %}
+      {{ site.title }}
+    {% endif %} 
+      <i class="fa fa-calendar"></i> {{ page.date | date: "%B %-d, %Y" }}  
+</p>
   <article>
     {{ content }}
   </article>
   
   <!-- pager -->
-  <div id="paging" class="row col s12"> 
-    <div class="container">
+  <div id="paging" class="container"> 
+    <div>
         {% if page.previous.url %}
-        <div class="col s6 m6 left">
-            <a class="btn btn-flat" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-        </div>
+            <a class="btn btn-flat main-color" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
         {% endif %}
         {% if page.next.url %}
-        <div class="col s6 m6 right">
-            <a class="btn btn-flat" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-        </div>
+            <a class="btn btn-flat main-color" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
         {% endif %}
     </div>
   </div>
@@ -54,9 +48,13 @@ layout: materialize/default
   
   <h3><i class="fa fa-share-alt"></i> Share this on </h3>                  
   
-  <a class="btn btn-flat" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+  <a class="btn btn-flat blue white-text" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+    <i class="fa fa-twitter"></i> Twitter
+  </a>
 
-  <a class="btn btn-flat" href="https://plus.google.com/share?url={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+  <a class="btn btn-flat red darken-3 white-text" href="https://plus.google.com/share?url={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">
+    <i class="fa fa-google-plus"></i> Google+
+  </a>
 
   <a class="btn btn-flat" href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
 
@@ -68,7 +66,6 @@ layout: materialize/default
 
   <a class="btn btn-flat" href="http://www.reddit.com/submit?url=<URL>&title=<TITLE>" rel="nofollow" target="_blank" title="Share on Google+">Reddit</a>
 </section>
-
 
 
 <div id="taxanomy" class="container">
@@ -100,7 +97,6 @@ layout: materialize/default
     </div>
 </div>
 
-<hr>
 <section id="related" class="container">
 <!-- related posts -->
       
