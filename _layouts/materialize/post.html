@@ -25,24 +25,27 @@ layout: materialize/default
 </div>
 
 <section id="content" class="container">
+  
   <article>
     {{ content }}
   </article>
-  <div id="paging" class="container"> 
+  
   <!-- pager -->
-    <ul class="pager">
+  <div id="paging" class="container"> 
+    <div class="row">
         {% if page.previous.url %}
-        <li class="previous">
+        <div class="col s12 m6 left">
             <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-        </li>
+        </div>
         {% endif %}
         {% if page.next.url %}
-        <li class="next">
+        <div class="col s12 m6 right">
             <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-        </li>
+        </div>
         {% endif %}
-    </ul>
+    </div>
   </div>
+
 </section>
 
 
@@ -51,21 +54,20 @@ layout: materialize/default
   
   <h3><i class="fa fa-share-alt"></i> Share this on </h3>                  
   
-  <a class="btn btn-flat circle blue" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+  <a class="btn btn-flat" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
 
-  <a class="btn btn-flat red" href="https://plus.google.com/share?url={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+  <a class="btn btn-flat" href="https://plus.google.com/share?url={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
 
-  <a class="btn btn-flat blue" href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+  <a class="btn btn-flat" href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
 
-  <a class="btn btn-flat red" href="http://pinterest.com/pin/create/button/?url=<URL>&description=<TITLE>" rel="nofollow" target="_blank" title="Share on Google+">Pinterest</a>
+  <a class="btn btn-flat" href="http://pinterest.com/pin/create/button/?url=<URL>&description=<TITLE>" rel="nofollow" target="_blank" title="Share on Google+">Pinterest</a>
 
-  <a class="btn btn-flat blue" href="http://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>" rel="nofollow" target="_blank" title="Share on Google+">LinkedIn</a>
+  <a class="btn btn-flat" href="http://www.linkedin.com/shareArticle?mini=true&url=<URL>&title=<TITILE>&summary=<DESCRIPTION>&source=<DOMAIN>" rel="nofollow" target="_blank" title="Share on Google+">LinkedIn</a>
 
-  <a class="btn btn-flat red" href="http://www.tumblr.com/share/link?url=<URL>&name=<TITLE>&description=<DESCRIPTION>" rel="nofollow" target="_blank" title="Share on Google+">Tumblr</a>
+  <a class="btn btn-flat" href="http://www.tumblr.com/share/link?url=<URL>&name=<TITLE>&description=<DESCRIPTION>" rel="nofollow" target="_blank" title="Share on Google+">Tumblr</a>
 
-  <a class="btn btn-flat red" href="http://www.reddit.com/submit?url=<URL>&title=<TITLE>" rel="nofollow" target="_blank" title="Share on Google+">Reddit</a>
+  <a class="btn btn-flat" href="http://www.reddit.com/submit?url=<URL>&title=<TITLE>" rel="nofollow" target="_blank" title="Share on Google+">Reddit</a>
 </section>
-
 
 
 
