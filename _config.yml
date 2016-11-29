@@ -47,6 +47,14 @@ gems:
 defaults:
   -
     scope:
+      path: "/"
+      type: "pages"
+    values:
+      layout: materialize/landingpage
+      author: "Vu, Nguyen"
+      #header-img: "img/contact-bg.jpg"
+  -
+    scope:
       path: ""
       type: "pages"
     values:
