@@ -11,30 +11,21 @@
             <p><b>Liên hệ</b></p>
 
             <!-- ============= VCARD ============== -->
-            <div itemscope itemtype="http://schema.org/Organization">
-              <p itemprop="name"><a href="{{ site.baseurl }}">{{ site.title }}</a></p>
-              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                  <span itemprop="streetAddress">{{ site.contact_address }}</span><br>
-                  <span itemprop="addressLocality">{{ site.contact_city }}, {{ site.contact_country }}</span>
+            <ul class="vcard">
+              <li class="org">{{ site.contact_name }}</li>
+              <div class="adr">
+                <div class="street-address">{{ site.contact_address }}</div>
+                <span class="locality">{{ site.contact_city }}</span>, 
+                <span class="country-name">{{ site.contact_country }}</span>
               </div>
-              <div>
-                Tel:<span itemprop="telephone"> {{ site.contact_phone }} </span><br>
-                Fax:<span itemprop="faxNumber"> {{ site.contact_fax }} </span><br>
-                <span itemprop="email"> <a href="mailto:{{ site.email_username }}">Email Us</a> </span>
-              </div>
-              <div>
-                <p>Contact: </p>
-                <span itemprop="dept" itemscope itemtype="http://schema.org/Person">
-                  <span itemprop="name">Vũ, Nguyễn (CEO)</span><br>
-                </span>
-                <span itemprop="dept" itemscope itemtype="http://schema.org/Person">
-                  <span itemprop="name">Hiển, Nguyễn (Tech)</span><br>
-                </span>
-                <span itemprop="dept" itemscope itemtype="http://schema.org/Person">
-                  <span itemprop="name">Khánh, Lê (Admin)</span>
-                </span>
-              </div>
-            </div>
+              <li class="tel">{{ site.contact_phone }}</li>
+              <li class="fax">{{ site.fax }}</li>
+              <li>
+                <a class="email" href="mailto:{{ site.email_username }}">Email Us
+                </a>
+              </li>
+              <li class="fn">Vu, Nguyen</li>
+           </ul>
        </div>
         <div class="col s12 m3">
             <p><b>Tìm hiểu thêm</b></p>
