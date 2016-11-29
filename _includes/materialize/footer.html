@@ -11,7 +11,29 @@
             <p><b>Liên hệ</b></p>
 
             <!-- ============= VCARD ============== -->
-            
+            <div itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="name">{{ site.title }}</span>
+              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">{{ site.contact_address }}</span><br>
+                  <span itemprop="addressLocality">{{ site.contact_city }}, {{ site.contact_country }}</span>
+              </div>
+              <div>
+                Tel:<span itemprop="telephone"> {{ site.contact_phone }} </span><br>
+                Fax:<span itemprop="faxNumber"> {{ site.contact_fax }} </span><br>
+                E-mail: <span itemprop="email"> <a href="mailto:{{ site.email_username }}"></a> </span>
+              </div>
+              <div>
+                <span itemprop="dept" itemscope itemtype="http://schema.org/Person">
+                  <span itemprop="name">Vũ, Nguyễn (CEO)</span>
+                </span>
+                <span itemprop="dept" itemscope itemtype="http://schema.org/Person">
+                  <span itemprop="name">Hiển, Nguyễn (Tech)</span>
+                </span>
+                <span itemprop="dept" itemscope itemtype="http://schema.org/Person">
+                  <span itemprop="name">Khánh, Lê (Admin)</span>
+                </span>
+              </div>
+            </div>
        </div>
         <div class="col s12 m3">
             <p><b>Tìm hiểu thêm</b></p>

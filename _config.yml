@@ -21,9 +21,10 @@ google_plus_id:  "101600677672081932719"
 
 og_image: "assets/img/small/logo.png" # Open Graph/Twitter default site image
 
-#footer contact 
+#footer contact vcard
 contact_name: "Cty TNHH Dịch Vụ Công Nghệ Minh Vũ" 
 contact_phone: "(08)6684-8953"
+contact_fax: "(08)6684-8953"
 contact_address: "666 Đường 3/2 P.14, Q.10"
 contact_city: "TP.Hồ Chí Minh"
 contact_country: "Vietnam"
