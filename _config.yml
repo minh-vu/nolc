@@ -16,7 +16,7 @@ facebook_username:  nguyencongvu
 facebook_app_id:  "12345678"
 email_username:  nguyencongvu@gmail.com
 
-og_image: "img/logo.png" # Open Graph/Twitter default site image
+og_image: "img/small/logo.jpg" # Open Graph/Twitter default site image
 
 
 # Google Analytics
