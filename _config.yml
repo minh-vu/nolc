@@ -9,6 +9,7 @@ url: "https://digitalife-top.github.io"
 author: "Vu, Nguyen"
 language: "en"
 locale: "en-US" 
+keyword: "Marketing online hieu qua"
 
 twitter_username: "vunc"
 github_username:  digitalife-top
@@ -48,7 +49,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "bootstrap/page"  
+      layout: "materialize/page"  
       author: "Vu, Nguyen"
       #header-img: "img/contact-bg.jpg"
   -

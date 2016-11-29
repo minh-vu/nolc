@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.language | default: en }}">
 
 {% include materialize/head.html %}
 
 <body>
-    
-    {% include materialize/nav.html %}
 
+    {% include materialize/nav.html %}
+    
     {{ content }}
 
-    <h1>Materialize</h1>
-    
     {% include materialize/footer.html %}
 
     {% include materialize/ga.html %}
