@@ -28,8 +28,10 @@ var cssfiles = [
     'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css',
+    //-- blog web fonts 
+    'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic',
+    'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800',
     URL+'/assets/style.css'
-
 ];
 var jsfiles = [ 
     'https://code.jquery.com/jquery-2.2.4.min.js',
