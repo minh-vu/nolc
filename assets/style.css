@@ -37,6 +37,8 @@ section {padding-top: 40px; padding-bottom:40px}
     padding: 10px;
 }
 
+.collapsible-body {background: #fff;}
+
 @media print body {
     font-family: "Arial", serif;
     font-size: 1em;
