@@ -12,15 +12,15 @@ layout: bootstrap/default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <p class="post-meta">
+                </div>
+                <p class="post-meta">
                     {% if page.author %}
                       <i class="fa fa-user"></i> {{ page.author }}
                     {% else %}
                       {{ site.title }}
                     {% endif %} 
                       <i class="fa fa-calendar"></i> {{ page.date | date: "%B %-d, %Y" }}
-                    </p>
-                </div>
+                </p>
             </div>
         </div>
     </div>
