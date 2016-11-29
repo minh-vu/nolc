@@ -4,7 +4,7 @@ img {width: 100%}
 img.logo {margin-top: 0px; margin-left: 5px; height: 80px;}
 .logo-text {font-size: 80%}
 
-h1 {font-size: 260%;}
+h1 {font-size: 260%; }
 h2 {font-size: 180%;}
 h3 {font-size: 150%;}
 h4 {font-size: 120%; font-weight: bold;}
