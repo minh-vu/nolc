@@ -18,6 +18,9 @@ colors = ['green', 'deep-purple']
 var i = Math.floor( Math.random() * (colors.length - 0) + 0 );
 var chooseColor = colors[i].toString();
 
+
+
+
 var cssfiles = [
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css',
@@ -25,7 +28,7 @@ var cssfiles = [
     'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css',
-    URL+'/assets/style.css'
+    URL+'/assets/themes/materializecss/style.css'
 
 ];
 var jsfiles = [ 
@@ -34,8 +37,8 @@ var jsfiles = [
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.js',
-    URL+'/assets/jquery.waypoints.min.js', //-- scroll to view
-    URL+'/assets/inview.min.js',  //-- scroll to view
+    URL+'/assets/themes/materializecss/jquery.waypoints.min.js', //-- scroll to view
+    URL+'/assets/themes/materializecss/inview.min.js',  //-- scroll to view
     // 'assets/index.js', 
 ];
 
