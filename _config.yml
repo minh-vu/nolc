@@ -40,6 +40,7 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
+comment_activate: true 
 
 # Build settings
 markdown: kramdown
