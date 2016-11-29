@@ -15,7 +15,9 @@ layout: materialize/default
     </div>
 </div>
 
-<section id="content" class="container">
+<div class="container">
+
+<section id="content">
   <p>
     {% if page.author %}
       <i class="fa fa-user"></i> {{ page.author }}  
@@ -29,7 +31,7 @@ layout: materialize/default
   </article>
   
   <!-- pager -->
-  <div id="paging" class="container"> 
+  <div id="paging"> 
     <div>
         {% if page.previous.url %}
             <a class="btn btn-flat main-color" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
@@ -44,8 +46,8 @@ layout: materialize/default
 
 
 
-<section id="share" class="row">
-  <div class="container card-panel white">
+<section id="share">
+  <div class="card-panel white">
   <h3><i class="fa fa-share-alt"></i> Share this on </h3>                  
   
   <a class="btn btn-flat blue white-text" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
@@ -80,7 +82,7 @@ layout: materialize/default
 </section>
 
 
-<div id="taxanomy" class="container">
+<div id="taxanomy" >
 <!-- tags -->
     <p>
       {% if post %}
@@ -109,7 +111,7 @@ layout: materialize/default
     </p>
 </div>
 
-<section id="related" class="container">
+<section id="related">
 <!-- related posts -->
       
     <!-- tag related --> 
@@ -134,4 +136,6 @@ layout: materialize/default
 
 <!-- comments -->
 <!-- comment box -->
+
+</div>
 
