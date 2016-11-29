@@ -1,4 +1,4 @@
-# Site settings
+# Site settings site.title
 title: Digitalife
 header-img: img/home-bg.jpg
 email: nguyencongvu@gmail.com
@@ -6,20 +6,27 @@ copyright_name: Your/Project/Digitalife.top
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/business"
 url: "https://digitalife-top.github.io"
+author: "Vu, Nguyen"
+locate: en #vi
+
 twitter_username: vunc
 github_username:  digitalife-top
 facebook_username:  nguyencongvu
+facebook_app_id:  "12345678"
 email_username:  nguyencongvu@gmail.com
 
-og_image: "/images/logo.png" # Open Graph/Twitter default site image
+og_image: "img/home-bg.jpg" # Open Graph/Twitter default site image
 
-#more to SEO 
-twitter:
-  username: vunc
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
+
+google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
 
 # Build settings
 markdown: kramdown
