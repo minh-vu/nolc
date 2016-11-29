@@ -126,7 +126,8 @@ layout: materialize/default
           {% if listed_posts_urls contains mypost.url %}
           {% else %}
             <li>
-              <i class="fa fa-folder-open"></i> <a href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
+              <i class="fa fa-folder-open"></i> 
+              <a class="post-link"  href="{{ site.baseurl }}{{ mypost.url }}">{{ mypost.title }}</a>
             </li>
             {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
           {% endif %}

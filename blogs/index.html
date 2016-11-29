@@ -6,7 +6,7 @@ subtitle: "Follow our news and update"
 
 {% for post in paginator.posts %}
 <article>
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">{{ post.title }}</h2>
     </a>
     {% if post.subtitle %}
