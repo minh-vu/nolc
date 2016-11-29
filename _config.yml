@@ -9,18 +9,21 @@ url: "https://digitalife-top.github.io"
 author: "Vu, Nguyen"
 language: "en"
 locale: "en-US" 
+
 twitter_username: "vunc"
 github_username:  digitalife-top
 facebook_username:  "nguyencongvu"
 facebook_app_id:  "303370230021409"
 facebook_admins: "791078183"
 email_username:  nguyencongvu@gmail.com
+
 og_image: "img/small/logo.jpg" # Open Graph/Twitter default site image
 
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
+
 google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
 bing_site_verification   :
 alexa_site_verification  :
