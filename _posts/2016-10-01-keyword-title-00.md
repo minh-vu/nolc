@@ -1,5 +1,5 @@
 ---
-title:      "Mẫu | Tiêu đề quảng cáo đỉnh cao"
+title:      "Mẫu | Đây là tiêu đề bài viết"
 description:   "Tóm tắt bài viết ngắn trong 1 câu"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
