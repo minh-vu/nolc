@@ -1,6 +1,6 @@
 ---
 title:      "Cách viết tiêu đề quảng cáo gây ấn tượng mạnh"
-subtitle:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bài viết của mình"
+description:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bài viết của mình"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
 #header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
@@ -27,6 +27,7 @@ tags: ["Tiêu đề bài viết seo"]
 {% endif %}
 
 <!-- ======   TEXT EFFECT - DONT EDIT ====== -->
+
 <p class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">{{page.keyword}}
 </p>
 
