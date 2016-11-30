@@ -1,16 +1,21 @@
 # Site settings site.title
 title: Digitalife
+url: "https://digitalife-top.github.io"   # domain-name 
+baseurl: "/business"                      # repo-name 
+description: "Write your site description here. Meta description as well!"
+
+copyright_name: Digitalife.top #footer
 header-img: img/home-bg.jpg
 email: nguyencongvu@gmail.com
-copyright_name: Digitalife.top
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/business"
-url: "https://digitalife-top.github.io"
 author: "Vu, Nguyen"
-language: "vi"
-locale: "en-US" 
-keyword: "marketing online hieu qua"
 
+language: "vi" #seo
+locale: "en-US"  #seo
+keyword: "marketing online hieu qua" #seo
+og_image: "assets/img/small/logo.png" #seo
+comment_activate: true #set false or "" to disabled 
+
+#social account --> EDIT 
 twitter_username: "vunc"
 github_username:  digitalife-top
 facebook_username:  "nguyencongvu"
@@ -18,11 +23,9 @@ facebook_app_id:  "303370230021409"
 facebook_admins: "791078183"
 email_username:  nguyencongvu@gmail.com
 google_plus_id:  "101600677672081932719"
-google_form: "https://goo.gl/forms/UNBSCvJQMnKi3WRZ2"
+google_form: "https://goo.gl/forms/UNBSCvJQMnKi3WRZ2" # POPUP contact-form 
 
-og_image: "assets/img/small/logo.png" # Open Graph/Twitter default site image
-
-#footer contact vcard
+#footer contact vcard --> EDIT 
 contact_name: "Cty TNHH Dịch Vụ Công Nghệ Minh Vũ" 
 contact_call_to: "+84937980003"
 contact_phone: "(08)6684-8953"
@@ -31,17 +34,14 @@ contact_address: "666 Đường 3/2 P.14, Q.10"
 contact_city: "TP.Hồ Chí Minh"
 contact_country: "Vietnam"
 
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# Analytics --> EDIT if needed 
 # google_tracking_id:
-
 google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-comment_activate: true 
-
+# ================ DO-NOT-EDIT =========================
 # Build settings
 markdown: kramdown
 highlighter: rouge
