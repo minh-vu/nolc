@@ -1,11 +1,16 @@
 ---
 title:      "Sức mạnh của Marketing online"
-subtitle:   "Quảng cáo truyền thống có còn lợi thế so với marketing online?"
+description:   "Quảng cáo truyền thống có còn lợi thế so với marketing online?"
 date:       2016-11-15 12:00:00
-author:     "Vu, Nguyen"
-header-img: "img/post-bg-06.jpg"
+#=== Hinh-minh-hoa dark-bg-blur http://full-link
+header-img: "http://www.webdesignhot.com/wp-content/uploads/2014/02/Dark-Blue-Waves-Abstract-Background-Vector-Illustration.jpg"    
+#=== keyword and long-keyword
+keyword :   "tiêu đề bài viết seo"                 
+long-keyword: "marketing online bằng tiêu đề bài viết seo"        
+#=== site target SEO
+target-site: "http://digitalife.top"    
 category: advertising
-tags: ["marketing online", "quảng cáo"]
+tags: ["Tiêu đề bài viết seo"]
 ---
 
 Chúng ta sẽ trả lời các câu hỏi sau:

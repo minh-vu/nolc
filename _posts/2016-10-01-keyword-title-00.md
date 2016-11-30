@@ -1,14 +1,17 @@
 ---
-title:      "Tiêu đề quảng cáo đỉnh cao"
-subtitle:   "Tóm tắt bài viết ngắn trong 1 câu"
+title:      "Mẫu | Tiêu đề quảng cáo đỉnh cao"
+description:   "Tóm tắt bài viết ngắn trong 1 câu"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
-#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
-keyword :   "keyword"               #keyword cho bai nay  
-long-keyword: "long-keyword"        #long-keyword cho bai nay
-target-site: "http://target-site.com"    #SEO cho website nay 
+#=== Hinh-minh-hoa dark-bg-blur http://full-link
+header-img: "http://protiumdesign.com/wp-content/uploads/2014/12/Dark-Background-1024.jpg"    
+#=== keyword and long-keyword
+keyword :   "tiêu đề bài viết seo"                 
+long-keyword: "marketing online bằng tiêu đề bài viết seo"        
+#=== site target SEO
+target-site: "http://digitalife.top"    
 category: advertising
-tags: ["mẫu bài viết seo"]
+tags: ["Tiêu đề bài viết seo"]
 ---
 
 <!-- ======================================
