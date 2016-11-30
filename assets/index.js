@@ -28,7 +28,13 @@ function initAll(){
 
 
 function typo(){
-    $('.textillate').textillate({type: 'char'});
+    $('.textillate').textillate({
+        type: 'char', 
+        loop: false,
+        // sets the minimum display time for each text before it is replaced
+        minDisplayTime: 500,
+    });
+
     $('body').flowtype({
         minimum   : 480,
        maximum   : 1200,
