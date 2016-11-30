@@ -101,7 +101,7 @@ layout: materialize/default
         {% else %}
           {% assign categories = page.categories %}
         {% endif %}
-        <b>     Category:</b> 
+        <b>     - Category:</b> 
         {% for category in categories %}
           <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><i class="fa fa-folder-open"></i> {{category}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
@@ -139,14 +139,16 @@ layout: materialize/default
   <!-- comments -->
   <h3><i class="fa fa-comments"></i> Comments</h3>
   {% if site.comment_activate %}
-    <script src="https://apis.google.com/js/plusone.js">
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div id="comments"></div>
+    <script>
+      gapi.comments.render('comments', {
+          href: window.location,
+          width: '624',
+          first_party_property: 'BLOGGER',
+          view_type: 'FILTERED_POSTMOD'
+      });
     </script>
-    <div class="g-comments"
-        data-href="{{ site.url }}{{ site.baseurl }}"
-        data-width="642"
-        data-first_party_property="BLOGGER"
-        data-view_type="FILTERED_POSTMOD">
-    </div>
   {% endif %}
 
 </div>
