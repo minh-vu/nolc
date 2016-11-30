@@ -21,6 +21,7 @@ tags: ["mẫu bài viết seo"]
 =========================================== -->
 
 <!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
+
 {% if page.header-img %}
     ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 {% endif %}
