@@ -26,9 +26,9 @@ tags: ["Tiêu đề bài viết seo"]
     ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 {% endif %}
 
-<!-- ======   LETTERING EFFECT - DONT EDIT ====== -->
-<h1 class="lettering">
-  LETTER SEO
+<!-- ======   TEXT EFFECT - DONT EDIT ====== -->
+<h1 class="textTileLate" data-in-effect="rollIn" data-out-effect="rollIn">
+    LETTER SEO
 </h1>
 
 <!-- =================== Đầu bài ====================== -->
@@ -42,6 +42,7 @@ Chúng ta sẽ tìm hiểu:
   - Làm thế nào để có tiêu đề bài viết gây ấn tượng mạnh?
 
 <!-- =================== Ngữ cảnh ====================== -->
+
 ## Có thể bạn đã từng phải viết online và cần một {{ page.keyword }}
 
 Giả sử bạn cần phải viết bài và muốn chắc chắn là tiêu đề phải đủ hấp dận để quảng cáo, bạn nên đọc bài này, chúng tôi sẽ hướng dẫn bạn 
