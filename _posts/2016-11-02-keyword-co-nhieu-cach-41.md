@@ -1,6 +1,6 @@
 ---
 title:      "Có nhiều cách để [kết quả mong muốn]"
-subtitle:   "Bạn chỉ biết [..], còn rất nhiều cách khác để bạn thử."
+description:   "Bạn chỉ biết [..], còn rất nhiều cách khác để bạn thử."
 date:       2016-11-02 12:00:00
 author:     "Vu, Nguyen"
 #header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
@@ -25,6 +25,11 @@ tags: ["mẫu bài viết seo"]
 {% if page.header-img %}
     ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 {% endif %}
+
+<!-- ======   TEXT EFFECT - DONT EDIT ====== -->
+
+<p class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">{{page.keyword}}
+</p>
 
 <!-- =================== Đầu bài ====================== -->
 

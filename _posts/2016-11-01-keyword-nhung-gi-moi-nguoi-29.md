@@ -1,6 +1,6 @@
 ---
 title:      "Những gì mà mọi người có thể biết về [kết quả mong muốn]"
-subtitle:   "Bạn nên lắng nghe chia sẻ từ số đông đã từng [...]"
+description:   "Bạn nên lắng nghe chia sẻ từ số đông đã từng [...]"
 date:       2016-11-01 12:00:00
 author:     "Vu, Nguyen"
 #header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
@@ -25,6 +25,11 @@ tags: ["mẫu bài viết seo"]
 {% if page.header-img %}
     ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 {% endif %}
+
+<!-- ======   TEXT EFFECT - DONT EDIT ====== -->
+
+<p class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">{{page.keyword}}
+</p>
 
 <!-- =================== Đầu bài ====================== -->
 

@@ -1,6 +1,6 @@
 ---
 title:      "Cách đơn giản để [kết quả mong muốn] làm việc cho [nhóm/người mong muốn]"
-subtitle:   "Bạn đã biết vì sao [...] thực hiện điều này..."
+description:   "Bạn đã biết vì sao [...] thực hiện điều này..."
 date:       2016-11-01 12:00:00
 author:     "Vu, Nguyen"
 #header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
@@ -25,6 +25,12 @@ tags: ["mẫu bài viết seo"]
 {% if page.header-img %}
     ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 {% endif %}
+
+<!-- ======   TEXT EFFECT - DONT EDIT ====== -->
+
+<p class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">{{page.keyword}}
+</p>
+
 
 <!-- =================== Đầu bài ====================== -->
 
