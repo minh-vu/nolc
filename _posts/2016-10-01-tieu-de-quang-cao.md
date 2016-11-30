@@ -26,6 +26,20 @@ tags: ["Tiêu đề bài viết seo"]
     ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 {% endif %}
 
+<!-- ======   LETTERING EFFECT - DONT EDIT ====== -->
+<h1 class="lettering">
+  <span class="char1">T</span>
+  <span class="char2">I</span>
+  <span class="char3">T</span>
+  <span class="char4">L</span>
+  <span class="char5">E</span>
+  <span class="char6"> </span>
+  <span class="char7">S</span>
+  <span class="char8">E</span>
+  <span class="char9">O</span>
+  <span class="char10"></span>
+</h1>
+
 <!-- =================== Đầu bài ====================== -->
 
 ## Tiêu đề bài viết SEO nên thế nào 
@@ -204,9 +218,7 @@ Bạn cũng có thể tìm hiểu thêm tại website này
 
 57. Ít người biết cách để [...]
 
-58. Làm thế nào [số lượng ấn tượng] đạt được [kết quả mong muốn] nếu
-
-không có [kết quả không mong muốn]
+58. Làm thế nào [số lượng ấn tượng] đạt được [kết quả mong muốn] nếu không có [kết quả không mong muốn]
 
 59. Làm thế nào để tăng tốc [kết quả mong muốn] của bạn
 

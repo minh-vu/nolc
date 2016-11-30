@@ -22,8 +22,18 @@ function initAll(){
     // initTwitter();
     initGoogleAnalytic(GOOGLE_ANALYTIC_ID);
     setKeyword(KEYWORDS);
+
+    typo();
 }
 
+
+function typo(){
+    $(".lettering").lettering();
+    $('body').flowtype({
+        minimum : 500,
+        maximum : 1200
+    });
+}
 
 function setColor(COLOR){
     $("body").addClass(COLOR + " lighten-5");
