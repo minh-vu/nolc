@@ -13,12 +13,18 @@ tags: ["mẫu bài viết seo"]
 
 <!-- ======================================
         GHI NHỚ: YÊU CẦU CHUNG 
+>> Nên có hình ảnh và ALT hình phải có keyword của trang này 
 >> Heading ## phải có keyword của trang này 
 >> Phải có link đến web uy tín (external link)
 >> Phải có link nội bộ  (internal link)
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
 
+<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
+
+{% if page.header-img %}
+    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
+{% endif %}
 
 <!-- =================== Đầu bài ====================== -->
 
@@ -84,9 +90,10 @@ Bạn cũng có thể tìm hiểu thêm tại website này
 
 Để dễ dàng hơn, bạn có thể 
 
-<!-- =================== TARGET-SEO-LINK-BACK!!! ====================== -->
-Bạn có thể xem kết quả như tại [{{page.target-site}}](http://domain.com) 
-và [{{page.target-site}}](http://domain.com/long-key-word) 
+<!-- ================ TARGET-SEO-LINK-BACK!!! ===================-->
+
+Bạn có thể xem kết quả như tại [trang này]({{page.target-site}}) 
+và [trang này]({{page.target-site}}/blogs) 
 
 <!-- =================== STEP BY STEP GUIDE ====================== -->
 
