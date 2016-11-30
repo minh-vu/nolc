@@ -13,15 +13,17 @@ tags: ["mẫu bài viết seo"]
 
 <!-- ======================================
         GHI NHỚ: YÊU CẦU CHUNG 
->> Phải có hình ảnh và ALT hình phải có keyword của trang này 
+>> Nên có hình ảnh và ALT hình phải có keyword của trang này 
 >> Heading ## phải có keyword của trang này 
 >> Phải có link đến web uy tín (external link)
 >> Phải có link nội bộ  (internal link)
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
 
-<!-- =================== Đầu bài ====================== -->
-![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
+<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
+{% if page.header-img %}
+    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
+{% endif %}
 
 <!-- =================== Đầu bài ====================== -->
 
