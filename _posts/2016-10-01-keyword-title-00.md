@@ -23,12 +23,6 @@ tags: ["Tiêu đề bài viết seo"]
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
 
-<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
-
-{% if page.header-img %}
-    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
-{% endif %}
-
 <!-- =================== Đầu bài ====================== -->
 
 ## Đặt vấn đề về {{ page.keyword }}
