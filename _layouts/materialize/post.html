@@ -15,7 +15,9 @@ layout: materialize/default
         <div style="margin-top: 100px;"></div>
         
         <h1 class="lightSpeedIn"><b>{{ page.title }}</b></h1>
-        <h3><i class="fa fa-quote-right"></i> {{ page.description }}</h3>
+        {% if page.description %}
+            <h3><i class="fa fa-quote-right"></i> {{ page.description }}</h3>
+        {% endif %}    
     </div>
 </div>
 
