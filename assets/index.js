@@ -30,7 +30,7 @@ function initAll(){
 function typo(){
     $('.textillate').textillate({
         type: 'char', 
-        loop: false,
+        loop: true,
         // sets the minimum display time for each text before it is replaced
         minDisplayTime: 500,
     });
