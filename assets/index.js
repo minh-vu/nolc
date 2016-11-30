@@ -30,8 +30,11 @@ function initAll(){
 function typo(){
     $(".lettering").lettering();
     $('body').flowtype({
-        minimum : 480,
-        maximum : 1024
+        minimum   : 500,
+       maximum   : 1200,
+       minFont   : 12,
+       maxFont   : 40,
+       fontRatio : 30
     });
 }
 
