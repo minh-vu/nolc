@@ -46,3 +46,17 @@ header-img: "img/contact-bg.jpg"
 <h2 class="post-title">Send us your request</h2>
 <a href="#modal" class="btn btn-lagrge main-color modal-trigger">
 <i class="fa fa-envelope-o"></i>  I have a request</a>
+
+<h2 class="post-title">Chat with us</h2>
+{% if site.comment_activate %}
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div id="comments"></div>
+    <script>
+      gapi.comments.render('comments', {
+          href: window.location,
+          width: '624',
+          first_party_property: 'BLOGGER',
+          view_type: 'FILTERED_POSTMOD'
+      });
+    </script>
+  {% endif %}
