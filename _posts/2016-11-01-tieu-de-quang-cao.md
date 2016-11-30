@@ -1,5 +1,5 @@
 ---
-title:      "Cách viết tiêu đề quảng cáo gây ấn tượng mạnh"
+title:      "Tiêu đề quảng cáo gây ấn tượng mạnh"
 description:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bài viết của mình"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
