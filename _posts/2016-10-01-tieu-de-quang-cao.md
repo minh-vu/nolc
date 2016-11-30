@@ -1,3 +1,95 @@
+---
+title:      "Cách viết tiêu đề quảng cáo gây ấn tượng mạnh"
+subtitle:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bài viết của mình"
+date:       2016-11-15 12:00:00
+author:     "Vu, Nguyen"
+#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
+keyword :   "tiêu đề bài viết seo"               #keyword cho bai nay  
+long-keyword: "marketing online bằng tiêu đề bài viết seo"        #long-keyword cho bai nay
+target-site: "http://digitalife.top"    #SEO cho website nay 
+category: advertising
+tags: ["Tiêu đề bài viết seo"]
+---
+
+<!-- ======================================
+        GHI NHỚ: YÊU CẦU CHUNG 
+>> Nên có hình ảnh và ALT hình phải có keyword của trang này 
+>> Heading ## phải có keyword của trang này 
+>> Phải có link đến web uy tín (external link)
+>> Phải có link nội bộ  (internal link)
+>> Phải LINK về TARGET-SEO-SITE 
+=========================================== -->
+
+<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
+
+{% if page.header-img %}
+    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
+{% endif %}
+
+<!-- =================== Đầu bài ====================== -->
+
+## Tiêu đề bài viết SEO nên thế nào 
+
+Chúng ta sẽ tìm hiểu:
+  
+  - Thế nào là một tiêu đề hay?
+  - Tại sao phải có một tiêu đề hay ?
+  - Làm thế nào để có tiêu đề bài viết gây ấn tượng mạnh?
+
+<!-- =================== Ngữ cảnh ====================== -->
+## Có thể bạn đã từng phải viết online và cần một {{ page.keyword }}
+
+Giả sử bạn cần phải viết bài và muốn chắc chắn là tiêu đề phải đủ hấp dận để quảng cáo, bạn nên đọc bài này, chúng tôi sẽ hướng dẫn bạn 
+
+<!-- =================== Dẫn nhập ====================== -->
+
+## {{ page.keyword }} thực sự là gì?   
+
+Như vậy, với việc... , bạn có đủ sức mạnh để:
+
+  - Thực hiện...
+  - Tiến hành... 
+  - Lựa chọn...
+  - Thực thi...
+
+<!--- Phân tích  -->
+
+## Hiểu rõ hơn về vấn đề 
+
+Đầu tiên, ...
+
+Thứ hai, ...
+
+Tiếp theo,... 
+
+<!-- =================== Dẫn chứng và backlink ====================== -->
+
+## Hãy tham khảo và tìm một số phương án cho {{ page.long-keyword }}
+
+Bạn có thể thấy... 
+
+Bạn có thể tìm thấy một số tham khảo
+
+<!-- ===== External links ========= -->
+
+[Xem định nghĩa {{ page.keyword }}](http://wikipedia.org/seo)
+
+[Tham khảo tiếng Anh về {{ page.long-keyword }}](https://www.entrepreneur.com)
+
+<!-- ===== Internal links ========= -->
+
+Bạn cũng có thể tìm hiểu thêm tại website này 
+
+[Về {{ page.keyword }}]({{ site.baseurl }}/blogs)
+
+[Làm sao để có {{ page.long-keyword }}]({{ site.baseurl }}/blogs)
+
+<!-- =================== Mẹo nhỏ ====================== -->
+
+## Tips
+
+Để dễ dàng hơn, bạn có thể theo các gợi ý như sau: 
+
 1. Đây là một phương pháp giúp bạn [....] để [...]
 
 2. [...] xâm nhập với [đẳng cấp cao]
@@ -141,3 +233,30 @@ không có [kết quả không mong muốn]
 70. Làm thế nào để tăng tốc [kết quả mong muốn] của bạn
 
 72. Ai là người tiếp theo muốn [kết quả mong muốn]?
+
+<!-- ================ TARGET-SEO-LINK-BACK!!! ===================-->
+
+Bạn có thể xem kết quả như tại [trang này]({{page.target-site}}) 
+và [trang này]({{page.target-site}}/blogs) 
+
+<!-- =================== STEP BY STEP GUIDE ====================== -->
+
+## Bạn nên bắt đầu như thế nào 
+
+Bây giờ bạn đã được giới thiệu với những điều cơ bản về... , hãy nhớ tiến hành theo các bước sau 
+
+Hãy chắc chắn rằng 
+
+  - Bạn đã rõ về Tiêu đề bài viết SEO
+  - Bạn đã biết cách viết theo gợi 
+  - Bạn đã chuẩn bị các bước cho riêng mình
+  - Bạn đã thiết lập công cụ viết 
+
+Việc cuối cùng là HÃY HÀNH ĐỘNG! 
+
+
+## Chúc bạn thành công !
+
+Vu
+
+

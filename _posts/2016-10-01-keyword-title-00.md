@@ -90,7 +90,8 @@ Bạn cũng có thể tìm hiểu thêm tại website này
 
 Để dễ dàng hơn, bạn có thể 
 
-<!-- =================== TARGET-SEO-LINK-BACK!!! ====================== -->
+<!-- ================ TARGET-SEO-LINK-BACK!!! ===================-->
+
 Bạn có thể xem kết quả như tại [trang này]({{page.target-site}}) 
 và [trang này]({{page.target-site}}/blogs) 
 
