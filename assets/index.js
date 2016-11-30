@@ -33,7 +33,7 @@ function typo(){
         minimum   : 500,
        maximum   : 1200,
        minFont   : 12,
-       maxFont   : 40,
+       maxFont   : 16,
        fontRatio : 30
     });
 }
