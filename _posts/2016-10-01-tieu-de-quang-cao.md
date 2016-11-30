@@ -4,7 +4,7 @@ description:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bà
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
 #=== Hinh minh hoa dark bg blur
-header-img: "http://protiumdesign.com/wp-content/uploads/2014/12/Dark-Background-1024.jpg"    
+#header-img: "http://protiumdesign.com/wp-content/uploads/2014/12/Dark-Background-1024.jpg"    
 #=== keyword and long-keyword
 keyword :   "tiêu đề bài viết seo"                 
 long-keyword: "marketing online bằng tiêu đề bài viết seo"        
@@ -22,12 +22,6 @@ tags: ["Tiêu đề bài viết seo"]
 >> Phải có link nội bộ  (internal link)
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
-
-<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
-
-{% if page.header-img %}
-    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
-{% endif %}
 
 <!-- ======   TEXT EFFECT - DONT EDIT ====== -->
 
