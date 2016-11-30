@@ -4,7 +4,11 @@ layout: materialize/default
 
 <!-- ============= PARALLAX ============== -->
 <div class="parallax-container" style="height:380px;">
-    <div class="parallax"><img src="{{ site.baseurl }}/assets/img/small/parallax.jpg" ALT="{{ site.keyword }}" ></div>
+    {% if page.header-img %}
+        <div class="parallax"><img src="{{ site.baseurl }}/assets/img/small/parallax.jpg" ALT="{{ page.keyword | default: site.keyword }}" ></div>
+    {% else %}
+        <div class="parallax"><img src="{{ page.header-img }}" ALT="{{ page.keyword | default: site.keyword }}"></div>
+    {% endif %}
 
     <!-- text inside parallax -->
     <div class="white-text container">

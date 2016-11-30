@@ -3,10 +3,13 @@ title:      "Cách viết tiêu đề quảng cáo gây ấn tượng mạnh"
 description:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bài viết của mình"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
-#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
-keyword :   "tiêu đề bài viết seo"               #keyword cho bai nay  
-long-keyword: "marketing online bằng tiêu đề bài viết seo"        #long-keyword cho bai nay
-target-site: "http://digitalife.top"    #SEO cho website nay 
+#=== Hinh minh hoa dark bg blur
+header-img: "http://protiumdesign.com/wp-content/uploads/2014/12/Dark-Background-1024.jpg"    
+#=== keyword and long-keyword
+keyword :   "tiêu đề bài viết seo"                 
+long-keyword: "marketing online bằng tiêu đề bài viết seo"        
+#=== site target SEO
+target-site: "http://digitalife.top"    
 category: advertising
 tags: ["Tiêu đề bài viết seo"]
 ---
