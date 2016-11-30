@@ -3,12 +3,15 @@ title:      "[kết quả mong muốn]ở đâu và làm thế nào để đạt
 subtitle:   "Bạn chưa biết về [...], thật là một thiếu sót lớn"
 date:       2016-11-01 12:00:00
 author:     "Vu, Nguyen"
-#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
-keyword :   "keyword"               #keyword cho bai nay  
-long-keyword: "long-keyword"        #long-keyword cho bai nay
-target-site: "http://target-site.com"    #SEO cho website nay 
+#=== Hinh-minh-hoa dark-bg-blur http://full-link
+#header-img: "http://www.webdesignhot.com/wp-content/uploads/2014/02/Dark-Blue-Waves-Abstract-Background-Vector-Illustration.jpg"    
+#=== keyword and long-keyword
+keyword :   "tiêu đề bài viết seo"                 
+long-keyword: "marketing online bằng tiêu đề bài viết seo"        
+#=== site target SEO
+target-site: "http://digitalife.top"    
 category: advertising
-tags: ["mẫu bài viết seo"]
+tags: ["Tiêu đề bài viết seo"]
 ---
 
 <!-- ======================================
@@ -19,12 +22,6 @@ tags: ["mẫu bài viết seo"]
 >> Phải có link nội bộ  (internal link)
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
-
-<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
-
-{% if page.header-img %}
-    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
-{% endif %}
 
 <!-- =================== Đầu bài ====================== -->
 
