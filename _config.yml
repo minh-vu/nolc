@@ -13,7 +13,7 @@ language: "vi" #seo
 locale: "en-US"  #seo
 keyword: "marketing online hieu qua" #seo
 og_image: "assets/img/small/logo.png" #seo
-comment_activate: true #set false or "" to disabled 
+comment_activate: false #set false or "" to disabled 
 
 #social account --> EDIT 
 twitter_username: "vunc"
