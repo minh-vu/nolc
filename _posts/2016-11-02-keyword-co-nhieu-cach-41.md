@@ -3,7 +3,7 @@ title:      "Có nhiều cách để [kết quả mong muốn]"
 subtitle:   "Bạn chỉ biết [..], còn rất nhiều cách khác để bạn thử."
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
-header-img: "/assets/img/keyword-41.jpg"    #hinh minh hoa size 800x300
+header-img: "/assets/img/small/keyword-41.jpg"    #hinh minh hoa size 800x300
 keyword :   "keyword"               #keyword cho bai nay  
 long-keyword: "long-keyword"        #long-keyword cho bai nay
 target-site: "http://target-site.com"    #SEO cho website nay 
