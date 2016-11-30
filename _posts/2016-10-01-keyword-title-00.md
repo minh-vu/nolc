@@ -3,7 +3,7 @@ title:      "Tiêu đề quảng cáo đỉnh cao"
 subtitle:   "Tóm tắt bài viết ngắn trong 1 câu"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
-header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
+#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
 keyword :   "keyword"               #keyword cho bai nay  
 long-keyword: "long-keyword"        #long-keyword cho bai nay
 target-site: "http://target-site.com"    #SEO cho website nay 
