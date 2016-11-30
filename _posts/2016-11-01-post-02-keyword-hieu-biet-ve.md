@@ -1,6 +1,6 @@
 ---
-title:      "[...] đã xâm nhập vào [...] với [đẳng cấp cao] "
-subtitle:   "Bạn đã nhập ra sự xâm nhập của ... "
+title:      "Hiểu biết về giới [ngôi sao hot] khiến [...] "
+subtitle:   "Bạn đã biết rõ về ... "
 date:       2016-11-01 12:00:00
 author:     "Vu, Nguyen"
 header-img: "img/post-bg-06.jpg"
