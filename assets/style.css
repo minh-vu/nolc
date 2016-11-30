@@ -9,10 +9,10 @@ img.logo {margin-top: 0px; margin-left: 5px; height: 80px;}
 .logo-text {font-size: 80%; font-family: 'Kanit'}
 
 p.textillate {
-    border-radius: 5px;
+    border-radius: 10px;
     background: #fff;
-    padding: 5px; 
-    width: 400px;
+    padding: 7px; 
+    max-width: 400px;
     height: 40px; 
 }
 
