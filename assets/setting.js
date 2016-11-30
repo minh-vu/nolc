@@ -42,7 +42,7 @@ var jsfiles = [
     URL+'/assets/jquery.waypoints.min.js', //-- scroll to view
     URL+'/assets/inview.min.js',  //-- scroll to view
     URL+'/assets/flowType.js',  //-- scroll to view
-    URL+'/assets/textTileLate.js',  //-- scroll to view
+    URL+'/assets/textillate.js',  //-- scroll to view
     // 'assets/index.js', 
 ];
 

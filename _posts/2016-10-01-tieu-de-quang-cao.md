@@ -27,7 +27,7 @@ tags: ["Tiêu đề bài viết seo"]
 {% endif %}
 
 <!-- ======   TEXT EFFECT - DONT EDIT ====== -->
-<h1 class="textTileLate" data-in-effect="rollIn" data-out-effect="rollIn">
+<h1 class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">
     LETTER SEO
 </h1>
 

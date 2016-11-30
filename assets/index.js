@@ -28,7 +28,7 @@ function initAll(){
 
 
 function typo(){
-    $('.textTileLate').textillate();
+    $('.textillate').textillate();
     $('body').flowtype({
         minimum   : 480,
        maximum   : 1200,
