@@ -1,7 +1,7 @@
 ---
 title:      "Có nhiều cách để [kết quả mong muốn]"
 subtitle:   "Bạn chỉ biết [..], còn rất nhiều cách khác để bạn thử."
-date:       2016-11-15 12:00:00
+date:       2016-11-02 12:00:00
 author:     "Vu, Nguyen"
 header-img: "/assets/img/small/keyword-41.jpg"    #hinh minh hoa size 800x300
 keyword :   "keyword"               #keyword cho bai nay  
@@ -21,7 +21,7 @@ tags: ["mẫu bài viết seo"]
 =========================================== -->
 
 <!-- =================== Đầu bài ====================== -->
-![{{page.keyword}}]({{page.header-img}})
+![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
 
 <!-- =================== Đầu bài ====================== -->
 

@@ -56,8 +56,8 @@ function animateToView(classname,anim){
 }
 
 function setKeyword(KEYWORDS){
-    $('img').attr("alt", KEYWORDS);
-    $('img').attr("title", KEYWORDS);
+    // $('img').attr("alt", KEYWORDS);
+    // $('img').attr("title", KEYWORDS);
 }
 
 
