@@ -4,7 +4,7 @@ description:   "Đừng viết nhàm chán, hãy chăm chút cho tiêu đề bà
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
 #=== Hinh-minh-hoa dark-bg-blur http://full-link
-#header-img: "http://www.webdesignhot.com/wp-content/uploads/2014/02/Dark-Blue-Waves-Abstract-Background-Vector-Illustration.jpg"    
+header-img: "http://www.webdesignhot.com/wp-content/uploads/2014/02/Dark-Blue-Waves-Abstract-Background-Vector-Illustration.jpg"    
 #=== keyword and long-keyword
 keyword :   "tiêu đề bài viết seo"                 
 long-keyword: "marketing online bằng tiêu đề bài viết seo"        

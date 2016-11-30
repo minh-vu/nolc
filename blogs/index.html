@@ -9,9 +9,9 @@ description: "Follow our news and update"
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">{{ post.title }}</h2>
     </a>
-    {% if post.subtitle %}
+    {% if post.description %}
     <h3 class="post-subtitle">
-        {{ post.subtitle }}
+        {{ post.description }}
     </h3>
     {% endif %}
     <!-- <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
