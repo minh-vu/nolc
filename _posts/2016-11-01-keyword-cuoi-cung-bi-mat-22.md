@@ -3,7 +3,7 @@ title:      "Cuối cùng, bí mật để [kết quả mong muốn] đã đư�
 subtitle:   "Bạn nghĩ [..] là huyền bí [...], có thể bạn đã lầm."
 date:       2016-11-01 12:00:00
 author:     "Vu, Nguyen"
-header-img: "img/post-bg-06.jpg"
+#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
 keyword :   "keyword"               #keyword cho bai nay  
 long-keyword: "long-keyword"        #long-keyword cho bai nay
 target-site: "http://target-site.com"    #SEO cho website nay 
@@ -13,12 +13,18 @@ tags: ["mẫu bài viết seo"]
 
 <!-- ======================================
         GHI NHỚ: YÊU CẦU CHUNG 
+>> Nên có hình ảnh và ALT hình phải có keyword của trang này 
 >> Heading ## phải có keyword của trang này 
 >> Phải có link đến web uy tín (external link)
 >> Phải có link nội bộ  (internal link)
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
 
+<!-- ======   Hình minh họa (nếu có) - DONT EDIT ====== -->
+
+{% if page.header-img %}
+    ![{{page.keyword}}]({{ site.baseurl}}{{page.header-img}} )
+{% endif %}
 
 <!-- =================== Đầu bài ====================== -->
 
@@ -88,7 +94,6 @@ Bạn cũng có thể tìm hiểu thêm tại website này
 
 Bạn có thể xem kết quả như tại [trang này]({{page.target-site}}) 
 và [trang này]({{page.target-site}}/blogs) 
-
 
 <!-- =================== STEP BY STEP GUIDE ====================== -->
 

@@ -3,7 +3,7 @@ title:      "Bạn cũng có thể [kết quả mong muốn] trong [thời gian]
 subtitle:   "Bạn từng rất muốn [...], hãy mạnh dạn vì bạn có thể!"
 date:       2016-11-01 12:00:00
 author:     "Vu, Nguyen"
-header-img: "img/post-bg-06.jpg"
+#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
 keyword :   "keyword"               #keyword cho bai nay  
 long-keyword: "long-keyword"        #long-keyword cho bai nay
 target-site: "http://target-site.com"    #SEO cho website nay 

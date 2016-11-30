@@ -3,7 +3,7 @@ title:      "Có nhiều cách để [kết quả mong muốn]"
 subtitle:   "Bạn chỉ biết [..], còn rất nhiều cách khác để bạn thử."
 date:       2016-11-02 12:00:00
 author:     "Vu, Nguyen"
-#header-img: ""    #hinh minh hoa size 800x150
+#header-img: "/assets/img/small/keyword-00.jpg"    #hinh minh hoa size 800x150
 keyword :   "keyword"               #keyword cho bai nay  
 long-keyword: "long-keyword"        #long-keyword cho bai nay
 target-site: "http://target-site.com"    #SEO cho website nay 
@@ -90,7 +90,8 @@ Bạn cũng có thể tìm hiểu thêm tại website này
 
 Để dễ dàng hơn, bạn có thể 
 
-<!-- =================== TARGET-SEO-LINK-BACK!!! ====================== -->
+<!-- ================ TARGET-SEO-LINK-BACK!!! ===================-->
+
 Bạn có thể xem kết quả như tại [trang này]({{page.target-site}}) 
 và [trang này]({{page.target-site}}/blogs) 
 
