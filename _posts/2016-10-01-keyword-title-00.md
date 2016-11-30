@@ -3,7 +3,7 @@ title:      "Tiêu đề quảng cáo đỉnh cao"
 subtitle:   "Tóm tắt bài viết ngắn trong 1 câu"
 date:       2016-11-15 12:00:00
 author:     "Vu, Nguyen"
-header-img: "img/post-bg-06.jpg"
+header-img: "/assets/img/keyword-00.jpg"    #hinh minh hoa size 800x300
 keyword :   "keyword"               #keyword cho bai nay  
 long-keyword: "long-keyword"        #long-keyword cho bai nay
 target-site: "http://target-site.com"    #SEO cho website nay 
@@ -13,12 +13,15 @@ tags: ["mẫu bài viết seo"]
 
 <!-- ======================================
         GHI NHỚ: YÊU CẦU CHUNG 
+>> Phải có hình ảnh và ALT hình phải có keyword của trang này 
 >> Heading ## phải có keyword của trang này 
 >> Phải có link đến web uy tín (external link)
 >> Phải có link nội bộ  (internal link)
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
 
+<!-- =================== Đầu bài ====================== -->
+![{{page.keyword}}]({{page.header-img}})
 
 <!-- =================== Đầu bài ====================== -->
 
