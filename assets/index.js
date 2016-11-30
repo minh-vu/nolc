@@ -30,8 +30,8 @@ function initAll(){
 function typo(){
     $(".lettering").lettering();
     $('body').flowtype({
-        minimum : 500,
-        maximum : 1200
+        minimum : 480,
+        maximum : 1024
     });
 }
 
