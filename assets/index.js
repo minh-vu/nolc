@@ -3,7 +3,10 @@
 function initAll(){
     // from setting.js
     var COLOR = chooseColor; 
-    var WHITE_BG = whiteBg; 
+    var WHITE_BG = whiteBg;
+    if (WHITE_BG)
+        COLOR = "white" ;
+
     var FB_APP_ID = facebookAppId;
     var GOOGLE_ANALYTIC_ID = googleAnalyticId;
     var KEYWORDS = keywords;
@@ -46,7 +49,7 @@ function typo(){
 }
 
 function setColor(COLOR){
-    if (!WHITE_BG)
+    if (COLOR!="white")
         $("body").addClass(COLOR + " lighten-5");
     
     $("nav#nav").addClass(COLOR + " darken-2 center-align");
