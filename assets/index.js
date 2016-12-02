@@ -9,7 +9,7 @@ function initAll(){
     var GOOGLE_ANALYTIC_ID = googleAnalyticId;
     var KEYWORDS = keywords;
 
-    setColor(COLOR);
+    setColor(COLOR,WHITE_BG);
     styleControls();
 
     animateToView(".tada","tada");
