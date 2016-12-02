@@ -23,10 +23,6 @@ tags: ["Tiêu đề bài viết seo"]
 >> Phải LINK về TARGET-SEO-SITE 
 =========================================== -->
 
-<!-- ======   TEXT EFFECT - DONT EDIT ====== -->
-
-<p class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">{{page.keyword}}
-</p>
 
 <!-- =================== Đầu bài ====================== -->
 

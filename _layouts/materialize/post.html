@@ -33,6 +33,11 @@ layout: materialize/default
         <i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }} - 
         <i class="fa fa-clock-o"></i> {% include readtime.html %}
     </p>
+    <!-- ======   TEXT EFFECT - DONT EDIT ====== -->
+    {% if page.keyword %}
+      <p class="textillate" data-in-effect="bounceIn" data-out-effect="wobble">{{page.keyword}}</p>
+    {% endif %}
+
     <article>
       {{ content }}
     </article>
