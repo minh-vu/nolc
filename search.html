@@ -1,0 +1,20 @@
+---
+title: "Search"
+description: "Find more..."
+header-img: "img/about-bg.jpg"
+---
+
+<!-- custom in google custom search -->
+<script>
+  (function() {
+    var cx = '013624321112494590301:{{ site.google_custom_search }}';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
