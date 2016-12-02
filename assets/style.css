@@ -29,9 +29,9 @@ hr.style {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-ul.sidebar li {border-bottom: solid 1px #eee; }
+ul.sidebar li {border-bottom: solid 1px #ddd; }
 li.main-item { margin-left: -15px }
-ul.submenu li {border-bottom: solid 1px #eee;}
+ul.submenu li {border-bottom: solid 1px #ddd;}
 
 h1 {font-size: 300%;}
 h1.title-large {font-size: 480%; font-weight: bold; font-family:'Kanit'}
