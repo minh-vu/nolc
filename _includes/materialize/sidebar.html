@@ -6,43 +6,32 @@
             <a href="#!email"><span class="white-text email">{{ site.author }}</span></a> -->
         </div>
     </li>
-    <li>
+    <li class="collapsible-header">
         <a href="{{ site.baseurl }}/">Home</a>
     </li>
     <li>
-      <div class="collapsible-header">News</div>
+      <div class="collapsible-header">Blogs</div>
       <div class="collapsible-body">
         <ul>
-          <li><a href="{{ site.baseurl }}/blogs">Blogs</a></li>
+          <li><a href="{{ site.baseurl }}/blogs">All</a></li>
           <li><a href="{{ site.baseurl }}/archive">Archive</a></li>
           <li><a href="{{ site.baseurl }}/categories">Category</a></li>
+          <li><a href="{{ site.baseurl }}/authors">Author</a></li>
+          <li><a href="{{ site.baseurl }}/tags">Tags</a></li>
         </ul>
       </div>
     </li>
-    <li>
-        <a href="{{ site.baseurl }}/archive">Archive</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/categories">Category</a>
-    </li>
-    
     
     {% if site.google_custom_search %}
-    <li>
+    <li class="collapsible-header">
         <a href="{{ site.baseurl }}/search">Search</a>
     </li>
     {% endif %}
 
-    <li>
-        <a href="{{ site.baseurl }}/authors">Author</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/tags">Tags</a>
-    </li>
-    <li>
+    <li class="collapsible-header">
         <a href="{{ site.baseurl }}/about">About</a>
     </li>
-    <li>
+    <li class="collapsible-header">
         <a href="{{ site.baseurl }}/contact">Contact</a>
     </li>
     <!-- <li>
