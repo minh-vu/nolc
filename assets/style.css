@@ -30,15 +30,8 @@ hr.style {
 }
 
 ul.sidebar li {border-bottom: solid 1px #eee; }
-.menu-item {
-    display: block;
-    cursor: pointer;
-    min-height: 3rem;
-    font-size: 14px;
-    padding: 0 1rem;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-}
+.main-item { margin-left: -15px }
+.submenu {border-bottom: solid 1px #eee;}
 
 h1 {font-size: 300%;}
 h1.title-large {font-size: 480%; font-weight: bold; font-family:'Kanit'}
