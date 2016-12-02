@@ -1,4 +1,4 @@
- <ul id="slide-out" class="side-nav sidebar collapsible">
+ <ul id="slide-out" class="side-nav sidebar">
     <li class="main-color white-text">
         <div class="userView">
             <a href="#!user"><img class="responsive-img" src="{{ site.baseurl }}/assets/img/small/logo.png" ALT="{{ site.keyword }}"></a>
@@ -11,14 +11,18 @@
     </li>
     
     <li>
-      <div class="collapsible-header"><li>News</li></div>
-      <div class="collapsible-body">
-        <ul>
-          <li><a href="{{ site.baseurl }}/blogs">Blogs</a></li>
-          <li><a href="{{ site.baseurl }}/archive">Archive</a></li>
-          <li><a href="{{ site.baseurl }}/categories">Category</a></li>
-        </ul>
-      </div>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><li>News</li></div>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="{{ site.baseurl }}/blogs">Blogs</a></li>
+              <li><a href="{{ site.baseurl }}/archive">Archive</a></li>
+              <li><a href="{{ site.baseurl }}/categories">Category</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </li>
     <li>
         <a href="{{ site.baseurl }}/archive">Archive</a>
