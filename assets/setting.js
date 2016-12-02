@@ -15,8 +15,6 @@ var colors = [
 ];
 
 // colors = ['green', 'deep-purple']
-var whiteBg = true; // false 
-
 var i = Math.floor( Math.random() * (colors.length - 0) + 0 );
 var chooseColor = colors[i].toString();
 

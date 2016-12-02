@@ -3,13 +3,12 @@
 function initAll(){
     // from setting.js
     var COLOR = chooseColor; 
-    var WHITE_BG = whiteBg;
 
     var FB_APP_ID = facebookAppId;
     var GOOGLE_ANALYTIC_ID = googleAnalyticId;
     var KEYWORDS = keywords;
 
-    setColor(COLOR,WHITE_BG);
+    setColor(COLOR);
     styleControls();
 
     animateToView(".tada","tada");
@@ -46,10 +45,8 @@ function typo(){
     });
 }
 
-function setColor(COLOR,WHITE_BG){
-    if (!WHITE_BG)
-        $("body").addClass(COLOR + " lighten-5");
-    
+function setColor(COLOR){
+    $("body").addClass(COLOR + " lighten-5");
     $("nav#nav").addClass(COLOR + " darken-2 center-align");
     $(".main-color-text").addClass(COLOR + "-text text-darken-4");
     $(".main-color").addClass(COLOR + " darken-4");
