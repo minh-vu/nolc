@@ -15,6 +15,9 @@ keyword: "marketing online hieu qua" #seo
 og_image: "assets/img/small/logo.png" #seo
 comment_activate: false #set false or "" to disabled 
 
+#cdn
+cdn_url : "http://cdn.digitalife.top:8080"
+
 #social account --> EDIT 
 twitter_username: "vunc"
 github_username:  digitalife-top
