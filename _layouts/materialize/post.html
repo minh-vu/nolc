@@ -26,12 +26,12 @@ layout: materialize/default
   <section id="post-content">
     <p>
       {% if page.author %}
-        <i class="fa fa-user"></i> {{ page.author }} / 
+        <i class="fa fa-user"></i> {{ page.author }} - 
       {% else %}
         {{ site.title }}
       {% endif %} 
-        <i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }} / 
-        <i class="fa fa-clock"></i> {% include readtime.html %}
+        <i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }} - 
+        <i class="fa fa-clock-o"></i> {% include readtime.html %}
     </p>
     <article>
       {{ content }}
