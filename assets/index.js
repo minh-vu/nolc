@@ -109,7 +109,10 @@ function styleControls(){
     $("span#current-color").html(chooseColor.toUpperCase());
 
     $('.button-collapse').show();
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+        menuWidth: 240, // Default is 240
+        edge: 'right', // Choose the horizontal origin
+    });
 }
 
 function checkLicense(url){
