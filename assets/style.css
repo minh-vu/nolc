@@ -32,6 +32,7 @@ hr.style {
 ul.sidebar li {border-bottom: solid 1px #ddd; }
 li.main-item { margin-left: -15px }
 ul.submenu li {border-bottom: solid 1px #ddd;}
+.side-nav li>a>i {margin: -5px -10px 0 0;}
 
 h1 {font-size: 300%;}
 h1.title-large {font-size: 480%; font-weight: bold; font-family:'Kanit'}
