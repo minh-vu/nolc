@@ -4,7 +4,7 @@ var facebookAppId = "123";
 var googleAnalyticId = "UA-11";
 var keywords = "marketing online hieu qua";
 
-var colors = [
+var colors = [ 
     "red","blue","green","orange",  
     "pink", "purple", "light-blue", "cyan", 
     "light-green", "yellow", "deep-orange", 
