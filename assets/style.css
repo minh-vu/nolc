@@ -30,6 +30,7 @@ hr.style {
 }
 
 ul.sidebar li {border-bottom: solid 1px #eee; }
+li.collapsible-header {font-size: 14px;}
 
 h1 {font-size: 300%;}
 h1.title-large {font-size: 480%; font-weight: bold; font-family:'Kanit'}
