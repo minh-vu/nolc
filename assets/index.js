@@ -1,8 +1,9 @@
 
    
 function initAll(){
-    // from setting
+    // from setting.js
     var COLOR = chooseColor; 
+    var WHITE_BG = whiteBg; 
     var FB_APP_ID = facebookAppId;
     var GOOGLE_ANALYTIC_ID = googleAnalyticId;
     var KEYWORDS = keywords;
@@ -45,7 +46,9 @@ function typo(){
 }
 
 function setColor(COLOR){
-    $("body").addClass(COLOR + " lighten-5");
+    if (!WHITE_BG)
+        $("body").addClass(COLOR + " lighten-5");
+    
     $("nav#nav").addClass(COLOR + " darken-2 center-align");
     $(".main-color-text").addClass(COLOR + "-text text-darken-4");
     $(".main-color").addClass(COLOR + " darken-4");
