@@ -76,3 +76,7 @@ section#post-content ul li {
     min-height: 420px;
 }
 
+.cta {-moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;}
+
