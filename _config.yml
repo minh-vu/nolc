@@ -1,6 +1,6 @@
 # Site settings site.title
 title: Digitalife
-url: "http://digitalife-top.github.io"   # domain-name 
+url: "https://digitalife-top.github.io"   # domain-name 
 baseurl: "/business"                      # repo-name 
 description: "Write your site description here. Meta description as well!"
 
