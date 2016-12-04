@@ -1,5 +1,5 @@
-// var URL = "/business"; //-- EDIT here 
-var URL = ""; //-- EDIT here 
+var URL = "/business"; //-- EDIT here 
+// var URL = ""; //-- EDIT here 
 var facebookAppId = "123";
 var googleAnalyticId = "UA-11";
 var keywords = "marketing online hieu qua";
