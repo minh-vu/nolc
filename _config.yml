@@ -1,17 +1,17 @@
 # Site settings site.title
-title: Digitalife
-url: "https://digitalife-top.github.io"   # domain-name 
-baseurl: "/business"                      # repo-name 
-description: "Write your site description here. Meta description as well!"
+title: Tân Đại Dương 
+url: "https://minh-vu.github.io"   # domain-name 
+baseurl: "/nolc"                      # repo-name 
+description: "Vận chuyển nội địa, quốc tế, hải quan, trucking container"
 
-copyright_name: Digitalife.top #footer
+copyright_name: Tân Đại Dương #footer
 header-img: img/home-bg.jpg
 email: nguyencongvu@gmail.com
 author: "Vu, Nguyen"
 
 language: "vi" #seo
 locale: "en-US"  #seo
-keyword: "marketing online hieu qua" #seo
+keyword: "vận chuyển" #seo
 og_image: "assets/img/small/logo.png" #seo
 comment_activate: false #set false or "" to disabled 
 
@@ -29,11 +29,11 @@ google_plus_id:  "101600677672081932719"
 google_form: "https://goo.gl/forms/UNBSCvJQMnKi3WRZ2" # POPUP contact-form 
 
 #footer contact vcard --> EDIT 
-contact_name: "Cty TNHH Dịch Vụ Công Nghệ Minh Vũ" 
+contact_name: "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VỤ TIẾP VẬN TÂN ĐẠI DƯƠNG" 
 contact_call_to: "+84937980003"
-contact_phone: "(08)6684-8953"
-contact_fax: "(08)6684-8953"
-contact_address: "666 Đường 3/2 P.14, Q.10"
+contact_phone: "(+84) 8 6272 4545"
+contact_fax: "(+84) 8 6272 3434"
+contact_address: "Số 13, Đường số 97, Khu phố 2, Phường Thạnh Mỹ Lợi, Quận 2"
 contact_city: "TP.Hồ Chí Minh"
 contact_country: "Vietnam"
 
